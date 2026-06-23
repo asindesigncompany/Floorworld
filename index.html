@@ -4,10 +4,11 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/>
   <title>Floorworld – Premium Flooring UAE</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
   <style>
     *{box-sizing:border-box;margin:0;padding:0;}
-    body{background:#070707;color:#fff;font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased;}
+    body{background:#070707;color:#fff;font-family:'Open Sans',sans-serif;-webkit-font-smoothing:antialiased;}
+    h1,h2,h3,.logo-text-main,.btn-primary,.nav-btn,.sec-title,.usp-item{font-family:'Oswald',sans-serif!important;}
     ::-webkit-scrollbar{display:none;}
     .app{max-width:430px;margin:0 auto;min-height:100vh;padding-bottom:68px;position:relative;}
     /* Header */
@@ -71,15 +72,20 @@
 <div class="app" id="app"></div>
 
 <script>
-const OG="#E87722", GD="#C9A84C";
+const OG="#F36621", GD="#C9A84C";
 const B="https://www.floorworld.com";
 const fw=p=>B+p;
 
 const I={
   logo:fw("/media/g00ff3aj/floorworld-new-logo-final.jpg"),
+  heroVideo:"https://www.floorworld.com/media/i1pkgkys/fw_home_bg_v2_1.mp4",
   hero:fw("/media/y4ibbgwx/floorworld-installation-image.jpg"),
   measure:fw("/media/qoedlzka/measuring-floor-img.webp"),
   woodBan:fw("/media/cutjx1fw/wood-banners.jpg"),
+  lamBanNew:"https://www.floorworld.com/media/ydpjahep/laminate-flooring-banner.jpg",
+  vinylBanNew:"https://www.floorworld.com/media/k0aaqitw/gerbu-r-aqua-click-vinyl-click-banners.jpg",
+  carpetBanNew:"https://www.floorworld.com/media/o4mmi1i2/wall-to-wallcarpet-banner-family.jpg",
+  outdoorBanNew:"https://www.floorworld.com/media/3ninsesb/outdoor-banner-decking-grass.jpg",
   woodMain:fw("/media/iy1j4gm4/rp-oxford-classic-dawn-09-engineered-wood-kitchen-flooring.jpg"),
   woodOff:fw("/media/heaj2ill/rp-frosted-oak-01-engineered-wood-flooring-office.jpg"),
   oxford:fw("/media/rxbo0dmc/rp-oxford-classic-nordic-driftwod-04-engineered-wood-flooring-kitchen.jpg"),
@@ -155,7 +161,7 @@ const cats=[
     ]},
     {id:"boa",name:"Boa Hybrid Herringbone",tex:"tex-wood",img:I.woodMain,desc:"Modern herringbone with hybrid resilience.",products:[]},
   ]},
-  {id:"laminate",name:"Laminate Flooring",emoji:"📐",tex:"tex-lam",banner:I.lamBan,img:I.hydroBed,
+  {id:"laminate",name:"Laminate Flooring",emoji:"📐",tex:"tex-lam",banner:I.lamBanNew,img:I.hydroBed,
    desc:"Beauty, durability and practicality with superior wear resistance.",brands:["Gerbür","Quick-Step"],
    subs:[
     {id:"hydro",name:"Gerbür HydroLock",tex:"tex-lam",img:I.hydroBed,desc:"100% waterproof laminate for kitchens, bathrooms and high-humidity UAE environments.",
@@ -166,7 +172,7 @@ const cats=[
     {id:"gprime",name:"Gerbür Prime",tex:"tex-lam",img:I.gUltra,desc:"Premium deep-embossed wood finish.",products:[]},
     {id:"gultra",name:"Gerbür Ultra",tex:"tex-lam",img:I.gUltra,desc:"Ultra-wide plank for open-plan spaces.",products:[]},
   ]},
-  {id:"vinyl",name:"Vinyl Flooring",emoji:"💧",tex:"tex-vinyl",banner:I.vinylBan,img:I.vClick,
+  {id:"vinyl",name:"Vinyl Flooring",emoji:"💧",tex:"tex-vinyl",banner:I.vinylBanNew,img:I.vClick,
    desc:"100% waterproof, comfortable underfoot, in lifelike finishes.",brands:["Gerbür","BerryAlloc","Quick-Step"],
    subs:[
     {id:"vclick",name:"Vinyl Click",tex:"tex-vinyl",img:I.vClick,desc:"Easy click-lock, fully waterproof — ideal for all rooms.",
@@ -180,7 +186,7 @@ const cats=[
     {id:"engage",name:"Engage SPC",tex:"tex-spc",img:I.spc,desc:"Rigid core with wood & stone visuals. 100% waterproof.",
      products:[{name:"Engage SPC Oak Limed Stone",brand:"Gerbür/Engage",tex:"tex-spc",img:I.spc,price:"AED 95/m²",specs:{Thickness:"6 mm",Core:"Stone Plastic Composite",Width:"178 mm",Length:"1220 mm",Waterproof:"100%"}}]},
   ]},
-  {id:"carpet",name:"Carpet Flooring",emoji:"🛋️",tex:"tex-carpet",banner:I.carpet,img:I.carpet,
+  {id:"carpet",name:"Carpet Flooring",emoji:"🛋️",tex:"tex-carpet",banner:I.carpetBanNew,img:I.carpet,
    desc:"Luxury comfort from Mohawk, British Carpet Mills, Lano & Balta.",
    brands:["Mohawk Group","Lano","Balta","British Carpet Mills"],
    subs:[
@@ -188,7 +194,7 @@ const cats=[
      products:[{name:"British Carpet Mills – Signature",brand:"British Carpet Mills",tex:"tex-carpet",img:I.carpet,price:"AED 45/tile",specs:{Format:"500×500 mm",Pile:"Loop / Cut & Loop",Backing:"Bitumen",Install:"Glue-down"}}]},
     {id:"wtw",name:"Wall to Wall Carpet",tex:"tex-carpet",img:I.carpet,desc:"Plush seamless carpet for bedrooms and lounges.",products:[]},
   ]},
-  {id:"outdoors",name:"Outdoors",emoji:"🌿",tex:"tex-out",banner:I.outdoor,img:I.outdoor,
+  {id:"outdoors",name:"Outdoors",emoji:"🌿",tex:"tex-out",banner:I.outdoorBanNew,img:I.outdoor,
    desc:"Durable, weather-resistant surfaces for UAE outdoor living.",brands:[],
    subs:[
     {id:"deck",name:"Decking",tex:"tex-out",img:I.outdoor,desc:"Smart Board Composite Decking — UV-resistant and low-maintenance.",
@@ -316,8 +322,12 @@ function renderHome(){
 
   // Hero
   const hero=div({style:{position:"relative",height:"220px",overflow:"hidden"}});
-  hero.appendChild(img2(I.hero,"tex-dark","100%","220px"));
-  const ho=div({style:{position:"absolute",inset:"0",background:"linear-gradient(to bottom,rgba(7,7,7,.5),rgba(7,7,7,.92))"}});
+  const vid=document.createElement("video");
+  vid.src=I.heroVideo; vid.autoplay=true; vid.muted=true; vid.loop=true; vid.playsInline=true;
+  vid.style.cssText="width:100%;height:220px;object-fit:cover;display:block;";
+  vid.onerror=()=>{hero.insertBefore(img2(I.hero,"tex-dark","100%","220px"),vid);vid.remove();};
+  hero.appendChild(vid);
+  const ho=div({style:{position:"absolute",inset:"0",background:"linear-gradient(to bottom,rgba(7,7,7,.2),rgba(7,7,7,.88))"}});
   const hc=div({style:{position:"absolute",bottom:"0",left:"0",right:"0",padding:"0 18px 22px"}});
   hc.appendChild(div({style:{color:GD,fontSize:"9px",fontWeight:"700",letterSpacing:"3px",marginBottom:"7px"}},"ESTABLISHED 2009 · UAE & GCC"));
   const h1=document.createElement("h1");

@@ -11,38 +11,26 @@
     h1,h2,h3,.logo-text-main,.btn-primary,.nav-btn,.sec-title,.usp-item{font-family:'Oswald',sans-serif!important;}
     ::-webkit-scrollbar{display:none;}
     .app{max-width:430px;margin:0 auto;min-height:100vh;padding-bottom:68px;position:relative;}
-    /* Header */
     .header{background:rgba(7,7,7,.97);padding:9px 14px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:300;border-bottom:1px solid #1A1A1A;}
     .logo-compact{display:flex;align-items:center;gap:8px;}
     .logo-badge{background:#E87722;border-radius:4px;padding:3px 7px;color:#fff;font-weight:900;font-size:13px;letter-spacing:1px;}
     .logo-text-main{color:#fff;font-weight:900;font-size:13px;letter-spacing:1px;line-height:1.2;}
     .logo-text-sub{color:#E87722;font-size:6.5px;font-weight:700;letter-spacing:1.2px;}
-    /* Logo Banner */
     .logo-banner{background:#E87722;padding:10px 14px 8px;}
     .logo-banner img{height:48px;max-width:100%;object-fit:contain;object-position:left;}
-    .logo-fallback{display:flex;align-items:center;gap:0;line-height:1;}
-    .logo-fallback span{color:#fff;font-weight:900;font-size:32px;letter-spacing:-0.5px;}
     .logo-tagline{color:rgba(0,0,0,.52);font-size:8.5px;font-weight:700;letter-spacing:1.6px;margin-top:4px;}
-    /* Nav */
     .bottom-nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:430px;background:rgba(5,5,5,.98);border-top:1px solid #1A1A1A;display:flex;z-index:300;}
-    .nav-btn{flex:1;background:none;border:none;color:#444;padding:9px 0 6px;cursor:pointer;font-size:8px;font-weight:500;letter-spacing:.5px;font-family:'Montserrat',sans-serif;transition:color .2s;}
+    .nav-btn{flex:1;background:none;border:none;color:#444;padding:9px 0 6px;cursor:pointer;font-size:8px;font-weight:500;letter-spacing:.5px;font-family:'Oswald',sans-serif;transition:color .2s;}
     .nav-btn.active{color:#E87722;font-weight:900;}
     .nav-icon{font-size:18px;margin-bottom:2px;}
     .nav-dot{background:#E87722;border-radius:99px;width:5px;height:5px;margin:2px auto 0;}
-    /* USP Bar */
     .usp-bar{background:#E87722;display:flex;overflow-x:auto;}
     .usp-item{padding:8px 15px;font-size:10px;font-weight:800;color:#fff;white-space:nowrap;border-right:1px solid rgba(255,255,255,.2);}
-    /* Cards */
     .card{background:#101010;border-radius:8px;border:1px solid #1C1C1C;overflow:hidden;}
-    .card-dark{background:#181818;border-radius:8px;border:1px solid #1C1C1C;}
-    /* Grid */
     .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
-    /* Buttons */
-    .btn-primary{width:100%;background:#E87722;border:none;color:#fff;padding:14px;border-radius:8px;font-size:13px;font-weight:900;cursor:pointer;letter-spacing:.5px;font-family:'Montserrat',sans-serif;}
+    .btn-primary{width:100%;background:#E87722;border:none;color:#fff;padding:14px;border-radius:8px;font-size:13px;font-weight:900;cursor:pointer;letter-spacing:.5px;font-family:'Oswald',sans-serif;}
     .btn-outline{display:block;text-align:center;margin:9px 0 0;border:1.5px solid #E87722;color:#E87722;padding:13px;border-radius:8px;font-size:12px;font-weight:800;text-decoration:none;}
-    /* Images */
     img.floor-img{object-fit:cover;display:block;}
-    /* Tex fallback */
     .tex-wood{background:repeating-linear-gradient(0deg,#9B7030 0px,#9B7030 22px,#7A5020 22px,#7A5020 44px,#8B6528 44px,#8B6528 66px,#6B4515 66px,#6B4515 88px);}
     .tex-lam{background:repeating-linear-gradient(0deg,#AA8545 0px,#AA8545 22px,#906B35 22px,#906B35 44px,#BA9558 44px,#BA9558 66px);}
     .tex-vinyl{background:repeating-linear-gradient(0deg,#5A7A90 0px,#5A7A90 20px,#4A6A80 20px,#4A6A80 40px,#6A8AA2 40px,#6A8AA2 60px);}
@@ -52,53 +40,81 @@
     .tex-acc{background:repeating-linear-gradient(0deg,#383838 0px,#383838 20px,#282828 20px,#282828 40px);}
     .tex-dark{background:repeating-linear-gradient(0deg,#1A2530 0px,#1A2530 22px,#101820 22px,#101820 44px);}
     .tex-clear{background:repeating-linear-gradient(0deg,#C45000 0px,#C45000 24px,#A84000 24px,#A84000 48px);}
-    /* Section title */
     .sec-title{color:#444;font-size:9px;font-weight:800;letter-spacing:2.5px;margin-bottom:12px;text-transform:uppercase;}
-    /* Spec chip */
     .spec-chip{background:#181818;border-radius:5px;padding:5px 9px;border:1px solid #1C1C1C;}
     .spec-key{color:#444;font-size:8px;letter-spacing:1px;text-transform:uppercase;}
     .spec-val{color:#ccc;font-size:10px;font-weight:700;margin-top:1px;}
-    /* Brand tag */
     .brand-tag{background:#181818;border:1px solid #222;border-radius:4px;padding:4px 12px;font-size:10px;color:#bbb;font-weight:600;}
-    /* Input */
-    .form-input{width:100%;background:#111;border:1px solid #1E1E1E;border-radius:8px;padding:12px 14px;color:#fff;font-size:13px;margin-bottom:10px;outline:none;font-family:'Montserrat',sans-serif;}
+    .form-input{width:100%;background:#111;border:1px solid #1E1E1E;border-radius:8px;padding:12px 14px;color:#fff;font-size:13px;margin-bottom:10px;outline:none;font-family:'Open Sans',sans-serif;}
     .form-label{color:#666;font-size:9px;font-weight:700;letter-spacing:1.8px;margin-bottom:4px;display:block;text-transform:uppercase;}
-    /* Overlay */
-    .overlay-b{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.05),rgba(0,0,0,.88));}
-    .overlay-r{position:absolute;inset:0;background:linear-gradient(to right,rgba(0,0,0,.92),rgba(0,0,0,.2));}
   </style>
 </head>
 <body>
 <div class="app" id="app"></div>
-
 <script>
-const OG="#F36621", GD="#C9A84C";
+const LOGO_FLAT="https://i.ibb.co/zh3mNFxN/Logo.jpg";
+const LOGO_3D="https://i.ibb.co/hFTdPRZs/Logo-3d.jpg";
+const OG="#E87722", GD="#C9A84C";
+
+// ── ImgBB direct links (Wood) ──
+const IW = {
+  // Engineered Wood
+  oxford:       "https://i.ibb.co/N6bWtqhn/rp-oxford-classic-nordic-driftwod-04-engineered-wood-flooring-kitchen.jpg",
+  windsor:      "https://i.ibb.co/jkkGjh1D/rp-windsor-classic-steel-22-family-room-engineered-wood-flooring.jpg",
+  cambridge:    "https://i.ibb.co/v6QCzx8R/rp-cambridge-classic-colorado-20-familyroom-engineered-wood-flooring.jpg",
+  bernera:      "https://i.ibb.co/nsKMLKHG/rp-bernera-supreme-nordic-driftwod-04-swatch-engineered-wood-cafe-sitting-area.jpg",
+  shChevron:    "https://i.ibb.co/k6wpcvyV/sh-chevron.jpg",
+  shHerring:    "https://i.ibb.co/67vrnSvf/sh-herringbone-banner.jpg",
+  shCornsilk:   "https://i.ibb.co/HDrLnBpq/sh-corn-silk-2-engineered-eternal-herringbone-wood-flooring-kitchen-dinning.jpg",
+  // Parquet
+  herringDove:  "https://i.ibb.co/NPTdyRd/rp-herringbone-dove-14-engineered-wood-flooring-reception-waiting-area.jpg",
+  chevronCedar: "https://i.ibb.co/Xr4j5JMD/rp-chevron-cedarstone-11-engineered-wood-flooring-coffeeshop.jpg",
+  shChevMah:    "https://i.ibb.co/N2PsC8qX/sh-chevron-mahogany.jpg",
+  // Chelsea Squares
+  artMosaic:    "https://i.ibb.co/0VFvPvVk/chelsea-square-art-mosaic-cinnamon.jpg",
+  chantilly:    "https://i.ibb.co/5WhVnqxB/rp-chelsea-square-chantilly-butterscotch-19-family-room.jpg",
+  versailles:   "https://i.ibb.co/JFkj64df/rp-chelsea-square-versailles-honeycombe-13-parquetry-wood-flooring-kitchen-dinning.jpg",
+  gilded:       "https://i.ibb.co/ycSYZ4gL/rp-chelsea-square-gilded-lines-cask-16-luxury-villa-entrane-foyer-parquetry-wood-flooring.jpg",
+  artMosaicDawn:"https://i.ibb.co/5xJfv2tp/rp-chelsea-square-art-mosaic-dawn-09-home-office.jpg",
+  magnificence: "https://i.ibb.co/5hFNFSH7/rp-chelsea-square-magnificence-butterscotch-19-boutique-parquetry-flooring.jpg",
+  elegantWave:  "https://i.ibb.co/ZRF1Jdyr/rp-chelsea-square-elegant-wave-cask-16-music-room-parquetry-wood-flooring.jpg",
+  linearVogue:  "https://i.ibb.co/Kj4Yc8Vd/rp-chelsea-square-linear-vogue-cinnamon-21-pharmacy-parquetry-wood-flooring.jpg",
+  lushSquare:   "https://i.ibb.co/G46DXYbV/rp-chelsea-square-lush-square-cask-16-kitchen-dinningroom-parquetry-wood-flooring.jpg",
+  // Boa Hybrid Herringbone
+  boaBan:       "https://i.ibb.co/XfmbrXfc/rp-boa-hybrid-herringbone-engineered-wood-flooring-home-office-engineered-wood-flooring.jpg",
+  boaIvory:     "https://i.ibb.co/Jwnj0z15/rp-boa-hybrid-herringbone-classic-ivory-06-villa-foyer-engineered-wood-flooring.jpg",
+  boaTundra:    "https://i.ibb.co/bR8xQKqY/rp-boa-hybrid-herringbone-classic-tundra-08-swatch-engineered-wood-flooring-kitchen-engineered-wood.jpg",
+  boaMist:      "https://i.ibb.co/XkFHNVGs/rp-boa-hybrid-herringbone-mist-07-home-office-enginrred-wood-flooring.jpg",
+  boaDawn:      "https://i.ibb.co/hxQhNGkd/rp-boa-hybrid-herringbone-dawn-09-boutique-engineered-wood-flooring.jpg",
+  boaSandcastle:"https://i.ibb.co/1Yf3CwZH/rp-boa-hybrid-herringbone-sandcastle-10-engineered-wood-flooring-coffee-shop.jpg",
+  boaCedarstone:"https://i.ibb.co/yFn6gLnG/rp-boa-hybrid-herringbone-cedarstone-11-engineered-wood-flooring-villa-entrance.jpg",
+  boaHeather:   "https://i.ibb.co/7dBkGBqL/rp-boa-hybrid-herringbone-heather-12-engineered-wood-flooring-clinic-reception-flooring.jpg",
+  boaHoneycomb: "https://i.ibb.co/d4dFkTQ9/rp-boa-hybrid-herringbone-honeycomb-13-engineered-wood-flooring-villa-entrance-engineered-wood-floor.jpg",
+  boaDove:      "https://i.ibb.co/39vbHPR8/rp-boa-hybrid-herringbone-dove-14-engineered-wood-flooring-kitchen-engineered-wood-flooring.jpg",
+  boaTawny:     "https://i.ibb.co/99z4b9X9/rp-boa-hybrid-herringbone-tawny-15-engineered-wood-flooring-hotel-lobby-engineered-wood-flooring.jpg",
+  boaCask:      "https://i.ibb.co/W8RT92h/rp-boa-hybrid-herringbone-cask-16-engineered-wood-flooring-kitchen-engineered-wood-flooring.jpg",
+  boaEngland:   "https://i.ibb.co/wFcsL4JD/rp-boa-hybrid-herringbone-england-17-engineered-wood-flooring-villa-entrance.jpg",
+  boaButterscotch:"https://i.ibb.co/GQQmFwNP/rp-boa-hybrid-herringbone-butterscotch-19-engineered-wood-flooring-bedroom-flooring.jpg",
+  boaCinnamon:  "https://i.ibb.co/pBB2Fx4P/rp-boa-hybrid-herringbone-cinnamon-21-engineered-wood-flooring-home-office-flooring.jpg",
+  boaSteel:     "https://i.ibb.co/QFGk3pF0/rp-boa-hybrid-herringbone-steel-22-engineered-wood-flooring-villa-entrance-flooring.jpg",
+};
+
+// Floorworld CDN (non-wood still uses these — will show SVG fallback until replaced)
 const B="https://www.floorworld.com";
 const fw=p=>B+p;
-
 const I={
-  logo:fw("/media/g00ff3aj/floorworld-new-logo-final.jpg"),
+  logo:LOGO_FLAT,
   heroVideo:"https://www.floorworld.com/media/i1pkgkys/fw_home_bg_v2_1.mp4",
   hero:fw("/media/y4ibbgwx/floorworld-installation-image.jpg"),
   measure:fw("/media/qoedlzka/measuring-floor-img.webp"),
-  woodBan:fw("/media/cutjx1fw/wood-banners.jpg"),
-  lamBanNew:"https://www.floorworld.com/media/ydpjahep/laminate-flooring-banner.jpg",
-  vinylBanNew:"https://www.floorworld.com/media/k0aaqitw/gerbu-r-aqua-click-vinyl-click-banners.jpg",
-  carpetBanNew:"https://www.floorworld.com/media/o4mmi1i2/wall-to-wallcarpet-banner-family.jpg",
-  outdoorBanNew:"https://www.floorworld.com/media/3ninsesb/outdoor-banner-decking-grass.jpg",
-  woodMain:fw("/media/iy1j4gm4/rp-oxford-classic-dawn-09-engineered-wood-kitchen-flooring.jpg"),
-  woodOff:fw("/media/heaj2ill/rp-frosted-oak-01-engineered-wood-flooring-office.jpg"),
-  oxford:fw("/media/rxbo0dmc/rp-oxford-classic-nordic-driftwod-04-engineered-wood-flooring-kitchen.jpg"),
-  windsor:fw("/media/gi4jn1jc/rp-windsor-classic-steel-22-family-room-engineered-wood-flooring.jpg"),
-  cambridge:fw("/media/q5kl44d0/rp-cambridge-classic-colorado-20-familyroom-engineered-wood-flooring.jpg"),
-  chevron:fw("/media/bcyhon0g/rp-chevron-cedarstone-11-engineered-wood-flooring-coffeeshop.jpg"),
-  herring:fw("/media/qcvlzgsb/rp-herringbone-dove-14-engineered-wood-flooring-reception-waiting-area.jpg"),
-  chelsea:fw("/media/jtwf2qql/rp-chelsea-square-parquetry-flooring.jpg"),
-  lamBan:fw("/media/heynmdym/gerbur-hydrolock-laminate-banners-water-resistant.jpg"),
+  // non-wood banners (SVG fallback until uploaded)
+  lamBanNew:fw("/media/ydpjahep/laminate-flooring-banner.jpg"),
+  vinylBanNew:fw("/media/k0aaqitw/gerbu-r-aqua-click-vinyl-click-banners.jpg"),
+  carpetBanNew:fw("/media/o4mmi1i2/wall-to-wallcarpet-banner-family.jpg"),
+  outdoorBanNew:fw("/media/3ninsesb/outdoor-banner-decking-grass.jpg"),
   hydroBed:fw("/media/2elpwnkd/gerbur-hydrolock-gb-hyl-01-bedroom.jpg"),
   hydroW:fw("/media/wixdhiwp/gerbur-hydrolock-gb-hyl-01-water-resistant.jpg"),
   gUltra:fw("/media/x0wbythh/gerbur-natural-blond-oak-gb-ult-05-modern-livingroom.jpg"),
-  vinylBan:fw("/media/k0aaqitw/gerbu-r-aqua-click-vinyl-click-banners.jpg"),
   vClick:fw("/media/2hddl2hs/gerbuer-aqua-click-washed-oak-modern-bedroom-vinyl-click.jpg"),
   spc:fw("/media/hmbptqfc/gerbuer-oak-limed-gb-eng-spc-01-living-room.jpg"),
   carpet:fw("/media/kjbat4mr/bcm-sig-hur-05-04-03-office.jpg"),
@@ -107,7 +123,6 @@ const I={
   skirt:fw("/media/armcizy2/skirtings.jpg"),
   skirt2:fw("/media/a2ofcclq/skirting-matching-profile-accessories.jpg"),
   skirtVen:fw("/media/2eqjyu0o/rp-wood-veneer-l-cover-skirting-thumbnail.jpg"),
-  skirtStd:fw("/media/qdiejshm/rp-wood-veneer-skirting-thumbnail.jpg"),
   skirtSol:fw("/media/lnvpd3xu/rp-solid-skirting-thumbnail.jpg"),
   skirtWh:fw("/media/ixvg4ddd/white-foiled-lacquered-skirting.jpg"),
   lAng15:fw("/media/2evneuq2/rp-solid-wood-l-angle-15mm-thumbnail.jpg"),
@@ -122,249 +137,435 @@ const I={
   p6:fw("/media/kjbat4mr/bcm-sig-hur-05-04-03-office.jpg"),
 };
 
-// Image with fallback
-function imgEl(src, texClass, style="") {
-  const id = "img_" + Math.random().toString(36).substr(2,6);
-  const img = document.createElement("img");
-  img.src = src;
-  img.referrerPolicy = "no-referrer";
-  img.crossOrigin = "anonymous";
-  img.style.cssText = style + ";object-fit:cover;display:block;";
-  img.onerror = function() {
-    const d = document.createElement("div");
-    d.className = texClass;
-    d.style.cssText = style;
-    img.parentNode && img.parentNode.replaceChild(d, img);
-  };
-  return img;
-}
-
-// --- DATA ---
-const cats=[
-  {id:"wood",name:"Wood Flooring",emoji:"🪵",tex:"tex-wood",banner:I.woodBan,img:I.woodMain,
-   desc:"Real timber beauty — Royal Parquet, SwissHardwood, ECO Wood & Universal Flooring.",
-   brands:["Royal Parquet","SwissHardwood","ECO Wood","Universal Flooring"],
-   subs:[
-    {id:"eng",name:"Engineered Wood Flooring",tex:"tex-wood",img:I.woodOff,desc:"Real hardwood surface with climate-stable construction for UAE homes, villas and hotels.",
-     products:[
-      {name:"Oxford Classic",brand:"Royal Parquet",tex:"tex-wood",img:I.oxford,price:"AED 149/m²",specs:{Width:"127 mm",Thickness:"14 mm","Wear Layer":"4 mm",Finish:"Matt Lacquer",Species:"European Oak",Install:"Floating / Glue-down"}},
-      {name:"Windsor Classic",brand:"Royal Parquet",tex:"tex-wood",img:I.windsor,price:"AED 189/m²",specs:{Width:"190 mm",Thickness:"14 mm","Wear Layer":"4 mm",Finish:"Matt Lacquer",Species:"European Oak",Install:"Floating / Glue-down"}},
-      {name:"Cambridge Classic",brand:"Royal Parquet",tex:"tex-wood",img:I.cambridge,price:"AED 229/m²",specs:{Width:"240 mm",Thickness:"14 mm","Wear Layer":"4 mm",Finish:"Matt Lacquer",Species:"European Oak",Install:"Floating / Glue-down"}},
-    ]},
-    {id:"parq",name:"Parquet Flooring",tex:"tex-wood",img:I.parquetBan,
-     desc:"Classic geometric patterns in premium European Oak — Herringbone, Chevron & Chelsea Squares.",
-     products:[
-      {name:"Chevron",brand:"Royal Parquet",tex:"tex-wood",img:I.chevron,price:"AED 249/m²",specs:{Pattern:"Chevron",Finish:"Ultra-Matt Lacquer",Species:"European Oak – Classic",Install:"Glue-down",Best:"Hotels · Luxury Retail · Villas"}},
-      {name:"Herringbone",brand:"Royal Parquet",tex:"tex-wood",img:I.herring,price:"AED 249/m²",specs:{Pattern:"Herringbone",Finish:"Ultra-Matt Lacquer",Species:"European Oak – Classic",Install:"Glue-down",Best:"Hotel Lobbies · Villas · Offices"}},
-    ]},
-    {id:"chelsea",name:"Chelsea Squares",tex:"tex-wood",img:I.chelsea,
-     desc:"Distinctive 600×600 mm square-pattern parquet for statement rooms.",
-     products:[
-      {name:"Chelsea Squares",brand:"Royal Parquet",tex:"tex-wood",img:I.chelsea,price:"AED 289/m²",specs:{Pattern:"Square / Parquetry",Size:"600×600 mm",Finish:"Lacquer",Species:"European Oak",Install:"Glue-down"}},
-    ]},
-    {id:"boa",name:"Boa Hybrid Herringbone",tex:"tex-wood",img:I.boaBan,
-     desc:"Modern herringbone — real wood aesthetics with water-resistant hybrid construction.",
-     products:[
-      {name:"Ivory – Boa Hybrid Herringbone",brand:"Royal Parquet",tex:"tex-wood",img:I.boaProd,price:"AED 231/m²",specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Waterproof:"Water-Resistant",Install:"Floating / Glue-down"}},
-    ]},
-  ]},
-  {id:"laminate",name:"Laminate Flooring",emoji:"📐",tex:"tex-lam",banner:I.lamBanNew,img:I.hydroBed,
-   desc:"Beauty, durability and practicality with superior wear resistance.",brands:["Gerbür","Quick-Step"],
-   subs:[
-    {id:"hydro",name:"Gerbür HydroLock",tex:"tex-lam",img:I.hydroBed,desc:"100% waterproof laminate for kitchens, bathrooms and high-humidity UAE environments.",
-     products:[{name:"HydroLock Natural Oak",brand:"Gerbür",tex:"tex-lam",img:I.hydroBed,price:"AED 89/m²",specs:{Thickness:"8 mm",Width:"193 mm",Length:"1380 mm","AC Rating":"AC4",Waterproof:"100% HydroLock",Install:"Click-Lock"}}]},
-    {id:"qsimp",name:"Quick-Step Impressive",tex:"tex-lam",img:I.qsImpBan,desc:"Award-winning laminate with HydroSeal water resistance and ScratchGuard protection.",
-     products:[{name:"Quick-Step Impressive – Classic Oak Natural",brand:"Quick-Step",tex:"tex-lam",img:I.qsImpProd,price:"AED 109/m²",specs:{Thickness:"8 mm",Width:"190 mm",Length:"1380 mm","AC Rating":"AC5",Waterproof:"HydroSeal Technology",Install:"Uniclic® Click",Best:"Homes · Offices · Commercial"}}]},
-    {id:"qseli",name:"Quick-Step Eligna",tex:"tex-lam",img:I.qsImpBan,desc:"Natural wood-look with authentic texture and exceptional durability.",products:[]},
-    {id:"gprime",name:"Gerbür Prime",tex:"tex-lam",img:I.gUltra,desc:"Premium deep-embossed texture and ultra-realistic wood finish.",products:[]},
-    {id:"gultra",name:"Gerbür Ultra",tex:"tex-lam",img:I.gUltra,desc:"Ultra-wide plank laminate for contemporary open-plan spaces.",products:[]},
-  ]},
-  {id:"vinyl",name:"Vinyl Flooring",emoji:"💧",tex:"tex-vinyl",banner:I.vinylBanNew,img:I.vClick,
-   desc:"100% waterproof, comfortable underfoot, in lifelike finishes.",brands:["Gerbür","BerryAlloc","Quick-Step"],
-   subs:[
-    {id:"vclick",name:"Vinyl Click",tex:"tex-vinyl",img:I.vClick,desc:"Easy click-lock, fully waterproof — ideal for all rooms.",
-     products:[{name:"Gerbür Aqua Click Washed Oak",brand:"Gerbür",tex:"tex-vinyl",img:I.vClick,price:"AED 79/m²",specs:{Thickness:"5 mm",Width:"182 mm",Length:"1220 mm",Waterproof:"100%",Install:"Click-Lock"}}]},
-    {id:"lvt",name:"Luxury Vinyl Tiles (LVT)",tex:"tex-vinyl",img:I.vinylBan,desc:"Premium tile format with ultra-realistic texture.",products:[]},
-    {id:"sheet",name:"Sheet Vinyl",tex:"tex-vinyl",img:I.vinylBan,desc:"Seamless coverage for large areas.",products:[]},
-  ]},
-  {id:"spc",name:"SPC Flooring",emoji:"🔩",tex:"tex-spc",banner:I.spc,img:I.spc,
-   desc:"100% waterproof rigid Stone Plastic Composite.",brands:["Gerbür","Engage"],
-   subs:[
-    {id:"engage",name:"Engage SPC",tex:"tex-spc",img:I.spc,desc:"Rigid core with wood & stone visuals. 100% waterproof.",
-     products:[{name:"Engage SPC Oak Limed Stone",brand:"Gerbür/Engage",tex:"tex-spc",img:I.spc,price:"AED 95/m²",specs:{Thickness:"6 mm",Core:"Stone Plastic Composite",Width:"178 mm",Length:"1220 mm",Waterproof:"100%"}}]},
-  ]},
-  {id:"carpet",name:"Carpet Flooring",emoji:"🛋️",tex:"tex-carpet",banner:I.carpetBan,img:I.carpet,
-   desc:"Luxury comfort from Mohawk, British Carpet Mills, Lano & Balta.",
-   brands:["Mohawk Group","Lano","Balta","British Carpet Mills"],
-   subs:[
-    {id:"ctile",name:"Carpet Tiles",tex:"tex-carpet",img:I.carpet,desc:"Modular tiles — design flexibility and easy maintenance.",
-     products:[{name:"British Carpet Mills – Signature",brand:"British Carpet Mills",tex:"tex-carpet",img:I.carpet,price:"AED 45/tile",specs:{Format:"500×500 mm",Pile:"Loop / Cut & Loop",Backing:"Bitumen",Install:"Glue-down"}}]},
-    {id:"wtw",name:"Wall to Wall Carpet",tex:"tex-carpet",img:I.carpet,desc:"Plush seamless carpet for bedrooms and lounges.",products:[]},
-  ]},
-  {id:"outdoors",name:"Outdoors",emoji:"🌿",tex:"tex-out",banner:I.outdoorBan,img:I.outdoor,
-   desc:"Durable, weather-resistant surfaces for UAE outdoor living.",brands:[],
-   subs:[
-    {id:"deck",name:"Decking",tex:"tex-out",img:I.outdoor,desc:"Smart Board Composite Decking — UV-resistant and low-maintenance.",
-     products:[{name:"Smart Board Composite Decking",brand:"Floorworld",tex:"tex-out",img:I.outdoor,price:"AED 185/m²",specs:{Material:"Composite Wood-Polymer",Width:"140 mm","Board Length":"3600 mm",Waterproof:"100% UV-Resistant"}}]},
-    {id:"grass",name:"Artificial Grass",tex:"tex-out",img:I.outdoor,desc:"Realistic lush turf with zero maintenance.",
-     products:[{name:"Standard Turf Artificial Grass",brand:"Floorworld",tex:"tex-out",img:I.outdoor,price:"AED 55/m²",specs:{"Pile Height":"35–40 mm","Blade Type":"W-Shape",Backing:"PP + Latex",Infill:"Silica Sand"}}]},
-  ]},
-  {id:"accessories",name:"Flooring Accessories",emoji:"🔧",tex:"tex-acc",banner:I.accMain,img:I.accMain,
-   desc:"Professional finishing — skirtings, profiles, underlay and care products.",
-   brands:["Royal Parquet","Gerbür"],
-   subs:[
-    {id:"skirt",name:"Skirtings",tex:"tex-acc",img:I.skirt,desc:"Laminate, oak veneer, solid oak and white foiled skirtings.",
-     products:[
-      {name:"Gerbür Laminate Skirtings",brand:"Gerbür",tex:"tex-acc",img:I.skirt2,price:"AED 18/LM",specs:{Material:"MDF + Laminate",Height:"58 mm",Length:"2400 mm"}},
-      {name:"RP Wood Oak Veneer L-Cover",brand:"Royal Parquet",tex:"tex-acc",img:I.skirtVen,price:"AED 45/LM",specs:{Material:"MDF + Oak Veneer",Size:"2440×100×25 mm"}},
-      {name:"RP Solid Skirting",brand:"Royal Parquet",tex:"tex-acc",img:I.skirtSol,price:"AED 55/LM",specs:{Material:"Solid Wood",Size:"2130×100×15 mm"}},
-      {name:"White Foiled Lacquered",brand:"Royal Parquet",tex:"tex-acc",img:I.skirtWh,price:"AED 22/LM",specs:{Finish:"White Foiled Lacquer",Height:"80 mm"}},
-    ]},
-    {id:"langle",name:"L-Angle Stair Nosing",tex:"tex-acc",img:I.lAng15,desc:"Premium AB Grade Oak stair edge profiles.",
-     products:[
-      {name:"L-Angle Stair Nosing 15mm",brand:"Royal Parquet",tex:"tex-acc",img:I.lAng15,price:"AED 65/LM",specs:{Size:"2130×50×50×15 mm",Material:"AB Grade Oak"}},
-      {name:"L-Angle Stair Nosing 5mm",brand:"Royal Parquet",tex:"tex-acc",img:I.lAng5,price:"AED 48/LM",specs:{Size:"2130×50×50×5 mm",Material:"AB Grade Oak"}},
-    ]},
-    {id:"trans",name:"Transition Profiles",tex:"tex-acc",img:I.tbar,desc:"T-Bars, Reducers and Beadings.",
-     products:[
-      {name:"Solid T-Bar",brand:"Royal Parquet",tex:"tex-acc",img:I.tbar,price:"AED 37/LM",specs:{Profile:"T-Bar",Material:"AB Grade Oak",Use:"Equal-height transitions"}},
-      {name:"Solid Reducer",brand:"Royal Parquet",tex:"tex-acc",img:I.reducer,price:"AED 42/LM",specs:{Profile:"Reducer",Material:"AB Grade Oak",Use:"Height-change transitions"}},
-    ]},
-    {id:"underlay",name:"Underlay",tex:"tex-acc",img:I.accMain,desc:"EVA, EPE, rubber and PU foam underlays.",products:[]},
-    {id:"aftercare",name:"After Care Products",tex:"tex-acc",img:I.accMain,desc:"Specialist floor cleaning and maintenance products.",products:[]},
-  ]},
-  {id:"clearance",name:"Clearance Sale",emoji:"🏷️",tex:"tex-clear",banner:I.gUltra,img:I.gUltra,
-   desc:"Premium European flooring at unbeatable clearance prices.",brands:[],subs:[]},
-];
-
 const projects=[
   {label:"Villa – Dubai",img:I.p1},{label:"Luxury Apartment",img:I.p2},
   {label:"Commercial Space",img:I.p3},{label:"Modern Home",img:I.p4},
   {label:"Hotel Project",img:I.p5},{label:"Office Space",img:I.p6},
 ];
 
-// STATE
-let state = {
-  tab:"home", cat:null, sub:null, prod:null,
-  basket:[], abt:"about", sent:false,
-  form:{name:"",phone:"",email:"",space:"",area:"",notes:""}
-};
+// ── CATEGORIES DATA ──
+const IL={hydroBan:"https://i.ibb.co/dwz6q5Ph/gerbur-hydrolock-laminate-banners-water-resistant.jpg",hydroSoftSand:"https://i.ibb.co/VpPctBh0/soft-sand-gb-hyl-01-modern-living-room-laminate-flooring.jpg",hydroWhisper:"https://i.ibb.co/k2XJ0dXs/whispering-oak-gb-hyl-02-laminate-flooring-for-dinning-and-kitchen.jpg",hydroDesert:"https://i.ibb.co/tp3FBM9N/desert-calm-gb-hyl-03-modern-cafe-workspace-laminate-flooring.jpg",hydroHarbour:"https://i.ibb.co/VWBn2R3p/harbour-mist-gb-hyl-04-dinning-room-laminate-flooring.jpg",hydroWashed:"https://i.ibb.co/HLmyP0br/washed-dune-gb-hyl-05-bedroom-laminate-flooring.jpg",hydroFawn:"https://i.ibb.co/twq7NCN1/soft-fawn-gb-hyl-06-reception-area-laminate-flooring.jpg",hydroHaze:"https://i.ibb.co/gFPbd0RR/gentle-haze-gb-hyl-07-home-office-laminate-flooring.jpg",hydroClay:"https://i.ibb.co/4wt8vdsV/claywash-oak-gb-hyl-08-executive-office-laminate-flooring.jpg",qsImpBan:"https://i.ibb.co/8nbc1mjg/qs-banner-impressive.jpg",qsImpSaw:"https://i.ibb.co/Psz3DjBs/qs-saw-cut-oak-grey-im1858-hall.jpg",qsImpPatina:"https://i.ibb.co/7t2cVpjc/qs-patina-classic-oak-grey-im3560-girl-bedroom-h.jpg",qsImpWhite:"https://i.ibb.co/HLZ7dhgp/qs-white-plank-im1859-sitting-room-girl-h.jpg",qsImpBurned:"https://i.ibb.co/svSgJDrz/qs-burned-planks-im1862-room-chair-h.jpg",qsImpClassicB:"https://i.ibb.co/gFcbYgpj/qs-classic-oak-beige-im1847-water-on-floor-laminate-floor.jpg",qsImpPatinaL:"https://i.ibb.co/bjRv2Y5S/qs-patina-classic-oak-light-im3559-home.jpg",qsImpSoftLB:"https://i.ibb.co/7tk66tx9/qs-soft-oak-light-brown-im3557-bathroom-h.jpg",qsImpClassicN:"https://i.ibb.co/DPB0sQNZ/qs-classic-oak-natural-im1848-bedroom-h.jpg",qsImpClassicBr:"https://i.ibb.co/wh68SdGm/qs-classic-oak-brown-im1849-bedroom-h.jpg",qsImpSoftM:"https://i.ibb.co/F40Mjgcf/qs-soft-oak-medium-im1856-dining-table-h.jpg",qsImpTruffle:"https://i.ibb.co/twXXwr7d/qs-impressive-truffle-oak-im8256-reading-man-dog-living.jpg",qsImpDune:"https://i.ibb.co/9k82DFPD/qs-impressive-dune-oak-im8259-kitchen.jpg",qsEliBan:"https://i.ibb.co/dw6rvTfb/qs-banner-eligna.jpg",qsEliOiledW:"https://i.ibb.co/HL0gX4DH/oiled-walnut-qs-wp-el1043.jpg",qsEliWhiteL:"https://i.ibb.co/7NVVN5gx/white-oak-light-qs-wp-el3580.jpg",qsEliNewcastle:"https://i.ibb.co/Y4jCS016/newcastle-oak-dark-qs-wp-el3581.jpg",qsEliVeniceG:"https://i.ibb.co/B5L4Xxg5/venice-oak-grey-qs-wp-el3906.jpg",qsEliVeniceL:"https://i.ibb.co/JRvyTmyF/venice-oak-light-qs-wp-el3990.jpg",qsEliMerbau:"https://i.ibb.co/NgdpMxQ9/merbau-el996-01.jpg",qsEliOld:"https://i.ibb.co/5zx8tbP/quick-step-old-oak-matt-oiled-el-312-sittingroom.jpg",qsEliLightGrey:"https://i.ibb.co/pj5VV1qj/qs-eligna-light-grey-varnish-oak-el-1304-livingroom-laminate-flooring.jpg",qsEliVeniceBeige:"https://i.ibb.co/WvXLLhGY/qs-eligna-venice-oak-beige-el-3907-kitchen-laminate-flooring-view.jpg",qsEliVeniceNat:"https://i.ibb.co/PzMTXhW9/qs-eligna-venice-oak-natural-el-3908-kids-room-laminate-flooring.jpg",qsEliNatVarn:"https://i.ibb.co/Xfy4RjQ0/qs-eligna-natural-varnished-oak-el-896-bedroom-laminate-flooring.jpg",gprimeBan:"https://i.ibb.co/MDXQ8sNY/gerbur-prime-laminate-banners.jpg",gprimeWhite:"https://i.ibb.co/60Sw7Rsr/gerbur-prime-white-spruce-gb-prm-01-living-room.jpg",gprimeFrozen:"https://i.ibb.co/bjrZtHP3/gb-prm-02-frozen-oak.jpg",gprimeCamelB:"https://i.ibb.co/B5vQmyFq/gerbur-gb-prm-03-camel-oak-beige-modern-livingroom-flooring.jpg",gprimeCamelN:"https://i.ibb.co/KxCrL8DT/gerbur-prime-camel-oak-natural-gb-prm-04-arab-style-bathek.jpg",gprimeArtisan:"https://i.ibb.co/LX7qXpqj/gerbur-artisan-dark-brown-oak-gb-prm-05-sitting-area.jpg",gprimeAtelier:"https://i.ibb.co/DDnd5NNF/gerbur-prime-atelier-oak-gb-prm-06-modern-kitchen.jpg",gprimeDarkW:"https://i.ibb.co/Hf8HFRs2/gerbur-dark-walnut-gb-prm-07-modern-kitchen.jpg",gprimeMerbau:"https://i.ibb.co/hFnfMKK0/gerbur-merbau-office-gb-prm-08.jpg",gultraBan:"https://i.ibb.co/2V5dRM8/gerbur-ultra-laminate-banners.jpg",gultraRaven:"https://i.ibb.co/7dM2RQmh/gerbur-raven-oak-gb-ult-08-04103-kitchen-sitting-area.jpg",gultraMedBrown:"https://i.ibb.co/nNgg4bf3/gerbur-ultra-medieval-brown-oak-gb-ult-07-kitchen.jpg",gultraUrban:"https://i.ibb.co/HDRsW2kT/gerbur-ultra-urban-oak-gb-ult-06-arab-style-livingroom.jpg",gultraNatBlond:"https://i.ibb.co/MykrH822/gerbur-natural-blond-oak-gb-ult-05-kitchen.jpg",gultraGarda:"https://i.ibb.co/pv5KFjL2/gerbur-garda-oak-gb-ult-04-livingroom-sofa-chair.jpg",gultraMtnGrey:"https://i.ibb.co/V0Nt81Dj/gerbur-ultra-mountain-grey-oak-gb-ult-03-office.jpg",gultraWarmWhite:"https://i.ibb.co/BV39CRyX/gerbur-warm-white-oak-livingroom.jpg",gultraPlatinum:"https://i.ibb.co/RprQ1Q1z/gerbur-ultra-platinum-blond-oak-gb-ult-02-office-laminate-flooring.jpg",gultraWheatfield:"https://i.ibb.co/cc5wsghD/gerbur-wheatfield-oak-gb-ult-09-home-office-laminate-flooring.jpg"};
+const IV={vBan:"https://i.ibb.co/6R65qfc4/gerbu-r-aqua-click-vinyl-click-banners.jpg",vAquaClick:"https://i.ibb.co/rGyWT6Cd/gerbuer-aqua-click-washed-oak-modern-bedroom-vinyl-click-1.jpg",vEvolution:"https://i.ibb.co/7NndRT64/gerbuer-evolution-vinyl-click-mocha-jin-evo-08-living-room.jpg",vHerringbone:"https://i.ibb.co/8DWBcqs2/gerbu-r-vinyl-click-herringbone-gb-sig-hrb-06-saddlewood-tv-bedroom.jpg",vVision:"https://i.ibb.co/0pKGR20n/gerbur-vision-coriander-11-kitchen.jpg",vModuleo:"https://i.ibb.co/Q3J7XSP0/moduleo-layredizusa-stone-08946-living-room-vinyl-click-flooring.jpg",vReclaimed:"https://i.ibb.co/QF71zZHV/reclaimed-oak-vinyl-click-herringbone-hall.jpg",vQsAmbient:"https://i.ibb.co/Tq4gWPt5/qs-ambient-grey-slate-sittingroom-vinyl-click.jpg",lvtNature:"https://i.ibb.co/VWmLKpvj/gerbu-r-nature-lvt-white-willo-bedroom.jpg",lvtPurePlanks:"https://i.ibb.co/d4McfJbn/pure-planks-authentic-oak-light-grey-room.jpg",lvtPureTiles:"https://i.ibb.co/hxZDsQBk/pure-tiles-zinc-616m-01-living-area-1.jpg",lvtQsBalance:"https://i.ibb.co/GvKQBgXx/qs-balance-vintage-chestnut-natural-lady-sitting-lvt-click-wood-effect.jpg",sheetEclipse:"https://i.ibb.co/4wg4qS9h/eclipse-50-eviana-m98-dinningroom-sheet-vinyl-flooring.jpg",sheetAllure:"https://i.ibb.co/KpV3nfpr/allure-t33-london-stone-t30-landscape.jpg",sheetMars:"https://i.ibb.co/x8XNdygL/mars-padua-t91-living-room.jpg",sheetSilento:"https://i.ibb.co/Dg92NG3b/silento-50-tavel-t02-living-room.jpg",sheetPolished:"https://i.ibb.co/wh4rB3Mv/polished-concrete-office.jpg"};
+const IS={spcBan:"https://i.ibb.co/prWjNC1f/spc-engage-banner.jpg",spcLimed:"https://i.ibb.co/R4CY8w4V/gerbuer-oak-limed-gb-eng-spc-01-livingroom-spc-flooring.jpg",spcGrey:"https://i.ibb.co/PZx54tGk/gerbuer-oak-grey-gb-eng-spc-02-kids-room.jpg",spcSmoked:"https://i.ibb.co/mrBmnP8v/gerbuer-smoked-oak-coffee-gb-eng-spc-03-modern-kids-room-spc-flooring.jpg",spcGolden4:"https://i.ibb.co/1pgBy2g/gerbuer-golden-oak-gb-eng-spc-04-living-room-spc-flooring.jpg",spcGolden5:"https://i.ibb.co/Kxsg28t0/gerbuer-golden-oak-gb-eng-spc-05-bed-room-spc-flooring.jpg",spcDark:"https://i.ibb.co/ZzYZRBhJ/gerbu-r-oak-dark-gb-eng-spc-06-livingroom-spc-flooring.jpg"};
+const IC={carpetBan:"https://i.ibb.co/5g6M0xGL/carpet-banners.jpg",ctilesBan:"https://i.ibb.co/5XrCrByM/carpet-tiles-banner.jpg",cSkyGardens:"https://i.ibb.co/DHrtKxjN/sky-gardens-sky-gardens-575-hotel-reception-carpet-tiles.jpg",cQ1480:"https://i.ibb.co/zhkfFrS1/q1480a-02-tor-01-sofa.jpg",cShark:"https://i.ibb.co/GvNZ8stW/shark-559-shark-559-stuttgart-business-people-having-discuss-carpet-tiles.jpg",cViper:"https://i.ibb.co/6c3NhqQ6/viper-559-viper-979-carpet-tiles-modern-luxury-financial-reception-lounge.jpg",cBcmAut:"https://i.ibb.co/dwp3LyX6/bcm-sig-aut-08-office-boardroom-waiting-area-hallway.jpg",cBcmHur:"https://i.ibb.co/Pzzyc2Nb/bcm-sig-hur-05-04-03-hotel-reception-lobby-carpet-tiles.jpg",cBcmCasini:"https://i.ibb.co/rRzhFKvP/bcm-casini-casini-548-cooperate-office-lounge-area-carpet-tiles.jpg",wtwBan:"https://i.ibb.co/rfHb7Rkc/wall-to-wallcarpet-banner.jpg",wtwDuchesse:"https://i.ibb.co/mCT86GLV/wall-to-wall-carpet-for-office-reception-area-duchesse-deluxe-carpet.jpg",wtwFaye:"https://i.ibb.co/hxFr5XCL/wall-to-wall-carpet-for-elegant-uae-villa-majlis-lounge-crp-beaul-faye-06.jpg",wtwJaip:"https://i.ibb.co/LDTvN441/wall-to-wall-carpet-for-luxury-hotel-lobby-in-dubai-crp-beaul-jaip-01.jpg",wtwOpt:"https://i.ibb.co/cc681nM0/wall-to-wall-carpet-for-dubai-property-showroom-crp-beaul-opt-02.jpg",wtwGrandEscape:"https://i.ibb.co/nTzJwr3/wall-to-wall-carpets-bcm-grand-escape-crp-stdcrp-grdesc-05-home-library.jpg",wtwSavage:"https://i.ibb.co/m5PDcPpT/wall-to-wall-carpet-bcm-savage-abundance-crp-blt-sa-06-serene-modern-lounge-with-garden.jpg",wtwStanage:"https://i.ibb.co/3yRwxfkm/wall-to-wall-carpet-bcm-stanage-edge-crp-blt-stedge-03-modern-luxury-living-room.jpg",wtwPrimrose:"https://i.ibb.co/CZj8nhn/wall-to-wall-carpet-tiles-balta-primrose-crp-blt-prim-08-balata-primrose-wall-to-wall-carpet-crp-blt.jpg",wtwAmaryllis:"https://i.ibb.co/jk0m0NKb/amaryllis-carpet-tiles-crp-blt-amrs-01-modern-villa-living-room-with-garden-view.jpg"};
+const IO={deckBan:"https://i.ibb.co/s9w1Hh9b/outdoor-banners-decking.jpg",deckChoc:"https://i.ibb.co/Dys221N/chocolate-decking-for-villa-pool.jpg",deckGrey:"https://i.ibb.co/bMPF5BHt/grey-decking-for-villa-pool.jpg",deckSahara:"https://i.ibb.co/jvg8cV9C/sahara-decking-for-villa-pool-burjh-khalifa.jpg",deckSlate:"https://i.ibb.co/btZtKc2/slate-decking-for-garden-pool-outdoor.jpg",deckTobacco:"https://i.ibb.co/Z65F11mF/tobacco-decking-for-vill-pool.jpg",deckWarmGrey:"https://i.ibb.co/XrrbKfv2/warm-grey-decking-villa-pool.jpg",grassBan:"https://i.ibb.co/v4hyL6tx/outdoor-banners-artificial-grass.jpg",grassBahia:"https://i.ibb.co/LzwNtnkP/bahia30-16-artificial-grass-for-villa-garden-pool.jpg",grassRedwood30:"https://i.ibb.co/TBf7sjyf/redwood-30-artificial-grass-for-villa-garden-pool-sahara-decking.jpg",grassBarun:"https://i.ibb.co/bjFtz0R4/barun-35-artificial-grass-for-villa-garden-pool-tree-grey-decking.jpg",grassRedwood34:"https://i.ibb.co/W4h0MVd3/redwood-34-artificial-grass-for-villa-pool-chocolate-decking.jpg",grassRedwood40:"https://i.ibb.co/YTJjrkZZ/redwood-40-artificial-grass-for-villa-pool-chocolate-decking-palm-tree.jpg",grassKakadu:"https://i.ibb.co/Qvrp4Z12/kakadu-30-artificial-grass-for-villa-garden-pool-steel-decking.jpg",grassCeneca:"https://i.ibb.co/qLX2Zfjb/ceneca-40-artificial-grass-for-villa-pool-chocolate-decking-grass-date-tree.jpg",grassTahoe:"https://i.ibb.co/xq0wcHLF/tahoe-45-artificial-grass-for-villa-pool-tobacco-decking-grass-date-modern-villa.jpg"};
+const IA={skirtOverview:"https://i.ibb.co/jkvzN8jg/skirting-matching-profile-accessories.jpg",skirtVeneerLC:"https://i.ibb.co/gMdF0t0B/rp-wood-veneer-l-cover-skirting-thumbnail.jpg",skirtVeneer:"https://i.ibb.co/xq6mHz9F/rp-wood-veneer-skirting-thumbnail.jpg",skirtSolid:"https://i.ibb.co/jk90w1hf/rp-solid-skirting-thumbnail.jpg",skirtWhite:"https://i.ibb.co/nNzvFs2m/white-foiled-lacquered-skirting.jpg",tbarFrosted:"https://i.ibb.co/mFY1gp3d/rp-solid-wood-t-bar-ab-grade-oak-matching-accessories-frosted-oak-01.jpg",lAngleFrosted:"https://i.ibb.co/HfHBdc0M/rp-solid-wood-l-angle-frosted-oak-matching-accessories-01-1.jpg",reducerFrosted:"https://i.ibb.co/jZLd5T0T/solid-wood-accessories-01-frosted-oak-matching-reducer.jpg",beadingFrosted:"https://i.ibb.co/DH01m3T5/rp-solid-wood-ag-grade-beading-frosted-oak-01.jpg",underlayEva:"https://i.ibb.co/HDKkS7gm/15mm-eva-underlay.jpg",underlayEpe:"https://i.ibb.co/TDJ6Q5Gt/3mm-epe-underlay.jpg",underlayAirBasic:"https://i.ibb.co/gbTSppJH/air-step-basic-underlay-roll.jpg",underlayAirBlue:"https://i.ibb.co/kgF38khC/air-step-blue-supreme.jpg",underlaySystem:"https://i.ibb.co/dw9sDn85/system-ten-underlay.jpg",underlayEgal:"https://i.ibb.co/8LxXB0zh/egalsoft-underlay.jpg",underlayRubber:"https://i.ibb.co/FbYHQGhc/36mm-rubber-underlay.jpg",careGerbur:"https://i.ibb.co/DfS0sGmb/gerbur-laminate-floor-cleaner.jpg",careVinyl:"https://i.ibb.co/20ZTgpxQ/gerbur-vinyl-floor-cleaner.jpg",careRmc:"https://i.ibb.co/5g01WV2Y/rmc-surface-care.jpg",careRubio:"https://i.ibb.co/JwhKQMnT/rubio-monocoat-soap-1.jpg",careRmcGrease:"https://i.ibb.co/nNGY6Jcv/rmc-grease-remover.jpg",careRmcLime:"https://i.ibb.co/9mQH2cRj/rmc-limespot-remover.jpg",careRpWood:"https://i.ibb.co/KxH8DnbL/rp-hardwood-floor-cleaner.jpg",careRmcRefresh:"https://i.ibb.co/s9jrgMX4/rmc-refresh-eco-spray.jpg",careRmcTannin:"https://i.ibb.co/Kc1XZSs6/rmc-tannin-remover.jpg",careRmOil:"https://i.ibb.co/Mv4kP63/rm-maintenance-oil.jpg"};
+// logos defined above;
 
-function setState(updates) {
-  Object.assign(state, updates);
-  render();
-}
+
+const cats=[
+  {id:"wood",name:"Wood Flooring",emoji:"🪵",tex:"tex-wood",
+   banner:IW.boaBan, img:IW.oxford,
+   desc:"Real timber beauty — Royal Parquet, SwissHardwood, ECO Wood & Universal Flooring.",
+   brands:["Royal Parquet","SwissHardwood","ECO Wood","Universal Flooring"],
+   subs:[
+    {id:"eng",name:"Engineered Wood Flooring",tex:"tex-wood",img:IW.bernera,
+     desc:"Real hardwood surface with climate-stable construction for UAE homes, villas and hotels.",
+     products:[
+      {name:"Oxford Classic – Nordic Driftwood",brand:"Royal Parquet",tex:"tex-wood",img:IW.oxford,price:"AED 149/m²",
+       specs:{Width:"127 mm",Thickness:"14 mm","Wear Layer":"4 mm",Finish:"Matt Lacquer",Species:"European Oak",Install:"Floating / Glue-down"}},
+      {name:"Windsor Classic – Steel 22",brand:"Royal Parquet",tex:"tex-wood",img:IW.windsor,price:"AED 189/m²",
+       specs:{Width:"190 mm",Thickness:"14 mm","Wear Layer":"4 mm",Finish:"Matt Lacquer",Species:"European Oak",Install:"Floating / Glue-down"}},
+      {name:"Cambridge Classic – Colorado 20",brand:"Royal Parquet",tex:"tex-wood",img:IW.cambridge,price:"AED 229/m²",
+       specs:{Width:"240 mm",Thickness:"14 mm","Wear Layer":"4 mm",Finish:"Matt Lacquer",Species:"European Oak",Install:"Floating / Glue-down"}},
+      {name:"Bernera Supreme – Nordic Driftwood",brand:"Royal Parquet",tex:"tex-wood",img:IW.bernera,price:"AED 269/m²",
+       specs:{Width:"240 mm",Thickness:"15 mm","Wear Layer":"4 mm",Finish:"Matt Lacquer",Grade:"Supreme",Install:"Floating / Glue-down"}},
+      {name:"SwissHardwood – Chevron",brand:"SwissHardwood",tex:"tex-wood",img:IW.shChevron,price:"AED 245/m²",
+       specs:{Pattern:"Chevron",Finish:"Natural Oil",Species:"European Oak",Install:"Glue-down",Best:"Villas · Hotels · Offices"}},
+      {name:"SwissHardwood – Eternal Herringbone (Corn Silk)",brand:"SwissHardwood",tex:"tex-wood",img:IW.shCornsilk,price:"AED 245/m²",
+       specs:{Pattern:"Herringbone",Finish:"Natural Oil",Species:"European Oak",Install:"Glue-down",Best:"Kitchens · Dining"}},
+      {name:"SwissHardwood – Herringbone",brand:"SwissHardwood",tex:"tex-wood",img:IW.shHerring,price:"AED 239/m²",
+       specs:{Pattern:"Herringbone",Finish:"Natural Oil",Species:"European Oak",Install:"Glue-down"}},
+    ]},
+    {id:"parq",name:"Parquet Flooring",tex:"tex-wood",img:IW.herringDove,
+     desc:"Classic geometric patterns in premium European Oak — Herringbone, Chevron & more.",
+     products:[
+      {name:"Herringbone – Dove 14",brand:"Royal Parquet",tex:"tex-wood",img:IW.herringDove,price:"AED 249/m²",
+       specs:{Pattern:"Herringbone",Finish:"Ultra-Matt Lacquer",Species:"European Oak – Classic",Install:"Glue-down",Best:"Hotel Lobbies · Villas · Offices"}},
+      {name:"Chevron – Cedarstone 11",brand:"Royal Parquet",tex:"tex-wood",img:IW.chevronCedar,price:"AED 249/m²",
+       specs:{Pattern:"Chevron",Finish:"Ultra-Matt Lacquer",Species:"European Oak – Classic",Install:"Glue-down",Best:"Coffee Shops · Retail · Villas"}},
+      {name:"SwissHardwood – Chevron Mahogany",brand:"SwissHardwood",tex:"tex-wood",img:IW.shChevMah,price:"AED 259/m²",
+       specs:{Pattern:"Chevron",Species:"Mahogany",Finish:"Natural Oil",Install:"Glue-down",Best:"Luxury Villas · Boutique Hotels"}},
+    ]},
+    {id:"chelsea",name:"Chelsea Squares",tex:"tex-wood",img:IW.gilded,
+     desc:"Distinctive 600×600 mm square-pattern parquet for statement rooms.",
+     products:[
+      {name:"Art Mosaic – Cinnamon 21",brand:"Royal Parquet",tex:"tex-wood",img:IW.artMosaic,price:"AED 289/m²",
+       specs:{Pattern:"Art Mosaic",Size:"600×600 mm",Colour:"Cinnamon 21",Finish:"Matt Lacquer",Install:"Glue-down"}},
+      {name:"Chantilly – Butterscotch 19",brand:"Royal Parquet",tex:"tex-wood",img:IW.chantilly,price:"AED 289/m²",
+       specs:{Pattern:"Chantilly",Size:"600×600 mm",Colour:"Butterscotch 19",Finish:"Matt Lacquer",Install:"Glue-down"}},
+      {name:"Versailles – Honeycombe 13",brand:"Royal Parquet",tex:"tex-wood",img:IW.versailles,price:"AED 319/m²",
+       specs:{Pattern:"Versailles",Size:"600×600 mm",Colour:"Honeycombe 13",Finish:"Matt Lacquer",Install:"Glue-down"}},
+      {name:"Gilded Lines – Cask 16",brand:"Royal Parquet",tex:"tex-wood",img:IW.gilded,price:"AED 299/m²",
+       specs:{Pattern:"Gilded Lines",Size:"600×600 mm",Colour:"Cask 16",Finish:"Matt Lacquer",Install:"Glue-down"}},
+      {name:"Art Mosaic – Dawn 09",brand:"Royal Parquet",tex:"tex-wood",img:IW.artMosaicDawn,price:"AED 289/m²",
+       specs:{Pattern:"Art Mosaic",Size:"600×600 mm",Colour:"Dawn 09",Finish:"Matt Lacquer",Install:"Glue-down"}},
+      {name:"Magnificence – Butterscotch 19",brand:"Royal Parquet",tex:"tex-wood",img:IW.magnificence,price:"AED 309/m²",
+       specs:{Pattern:"Magnificence",Size:"600×600 mm",Colour:"Butterscotch 19",Finish:"Matt Lacquer",Install:"Glue-down"}},
+      {name:"Elegant Wave – Cask 16",brand:"Royal Parquet",tex:"tex-wood",img:IW.elegantWave,price:"AED 299/m²",
+       specs:{Pattern:"Elegant Wave",Size:"600×600 mm",Colour:"Cask 16",Finish:"Matt Lacquer",Install:"Glue-down"}},
+      {name:"Linear Vogue – Cinnamon 21",brand:"Royal Parquet",tex:"tex-wood",img:IW.linearVogue,price:"AED 289/m²",
+       specs:{Pattern:"Linear Vogue",Size:"600×600 mm",Colour:"Cinnamon 21",Finish:"Matt Lacquer",Install:"Glue-down"}},
+      {name:"Lush Square – Cask 16",brand:"Royal Parquet",tex:"tex-wood",img:IW.lushSquare,price:"AED 289/m²",
+       specs:{Pattern:"Lush Square",Size:"600×600 mm",Colour:"Cask 16",Finish:"Matt Lacquer",Install:"Glue-down"}},
+    ]},
+    {id:"boa",name:"Boa Hybrid Herringbone",tex:"tex-wood",img:IW.boaBan,
+     desc:"Modern herringbone — real wood aesthetics with water-resistant hybrid construction.",
+     products:[
+      {name:"Boa Hybrid – Classic Ivory 06",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaIvory,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Ivory 06",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Mist 07",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaMist,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Mist 07",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Classic Tundra 08",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaTundra,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Tundra 08",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Dawn 09",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaDawn,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Dawn 09",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Sandcastle 10",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaSandcastle,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Sandcastle 10",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Cedarstone 11",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaCedarstone,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Cedarstone 11",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Heather 12",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaHeather,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Heather 12",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Honeycomb 13",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaHoneycomb,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Honeycomb 13",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Dove 14",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaDove,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Dove 14",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Tawny 15",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaTawny,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Tawny 15",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Cask 16",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaCask,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Cask 16",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – England 17",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaEngland,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"England 17",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Butterscotch 19",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaButterscotch,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Butterscotch 19",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Cinnamon 21",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaCinnamon,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Cinnamon 21",Install:"Floating / Glue-down"}},
+      {name:"Boa Hybrid – Steel 22",brand:"Royal Parquet",tex:"tex-wood",img:IW.boaSteel,price:"AED 231/m²",
+       specs:{Pattern:"Herringbone",Thickness:"5 mm","Plank Size":"127×635 mm",Construction:"Hybrid Rigid Core",Colour:"Steel 22",Install:"Floating / Glue-down"}},
+    ]},
+  ]},
+  {id:"laminate",name:"Laminate Flooring",emoji:"📐",tex:"tex-lam",banner:IL.hydroBan,img:IL.hydroSoftSand,
+   desc:"Beauty, durability and practicality with superior wear resistance.",brands:["Gerbür","Quick-Step"],
+   subs:[
+    {id:"hydro",name:"Gerbür HydroLock",tex:"tex-lam",img:IL.hydroBan,
+     desc:"100% waterproof laminate — 8 nature-inspired tones.",
+     products:[
+      {name:"Soft Sand GB-HYL-01",brand:"Gerbür",tex:"tex-lam",img:IL.hydroSoftSand,price:"AED 75/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Waterproof:"HydroLock 100%",Install:"Click-Lock"}},
+      {name:"Whispering Oak GB-HYL-02",brand:"Gerbür",tex:"tex-lam",img:IL.hydroWhisper,price:"AED 75/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Waterproof:"HydroLock 100%",Install:"Click-Lock"}},
+      {name:"Desert Calm GB-HYL-03",brand:"Gerbür",tex:"tex-lam",img:IL.hydroDesert,price:"AED 75/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Waterproof:"HydroLock 100%",Install:"Click-Lock"}},
+      {name:"Harbour Mist GB-HYL-04",brand:"Gerbür",tex:"tex-lam",img:IL.hydroHarbour,price:"AED 75/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Waterproof:"HydroLock 100%",Install:"Click-Lock"}},
+      {name:"Washed Dune GB-HYL-05",brand:"Gerbür",tex:"tex-lam",img:IL.hydroWashed,price:"AED 75/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Waterproof:"HydroLock 100%",Install:"Click-Lock"}},
+      {name:"Soft Fawn GB-HYL-06",brand:"Gerbür",tex:"tex-lam",img:IL.hydroFawn,price:"AED 75/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Waterproof:"HydroLock 100%",Install:"Click-Lock"}},
+      {name:"Gentle Haze GB-HYL-07",brand:"Gerbür",tex:"tex-lam",img:IL.hydroHaze,price:"AED 75/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Waterproof:"HydroLock 100%",Install:"Click-Lock"}},
+      {name:"Claywash Oak GB-HYL-08",brand:"Gerbür",tex:"tex-lam",img:IL.hydroClay,price:"AED 75/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Waterproof:"HydroLock 100%",Install:"Click-Lock"}},
+     ]},
+    {id:"qsimp",name:"Quick-Step Impressive",tex:"tex-lam",img:IL.qsImpBan,
+     desc:"Award-winning laminate with HydroSeal and ScratchGuard Pro.",
+     products:[
+      {name:"Saw Cut Oak Grey IM1858",brand:"Quick-Step",tex:"tex-lam",img:IL.qsImpSaw,price:"AED 109/m²",specs:{Thickness:"8 mm",Width:"190 mm","AC Rating":"AC5",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Classic Oak Beige IM1847",brand:"Quick-Step",tex:"tex-lam",img:IL.qsImpClassicB,price:"AED 109/m²",specs:{Thickness:"8 mm",Width:"190 mm","AC Rating":"AC5",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Patina Classic Oak Light IM3559",brand:"Quick-Step",tex:"tex-lam",img:IL.qsImpPatinaL,price:"AED 109/m²",specs:{Thickness:"8 mm",Width:"190 mm","AC Rating":"AC5",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Patina Classic Oak Grey IM3560",brand:"Quick-Step",tex:"tex-lam",img:IL.qsImpPatina,price:"AED 109/m²",specs:{Thickness:"8 mm",Width:"190 mm","AC Rating":"AC5",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"White Planks IM1859",brand:"Quick-Step",tex:"tex-lam",img:IL.qsImpWhite,price:"AED 109/m²",specs:{Thickness:"8 mm",Width:"190 mm","AC Rating":"AC5",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Classic Oak Natural IM1848",brand:"Quick-Step",tex:"tex-lam",img:IL.qsImpClassicN,price:"AED 109/m²",specs:{Thickness:"8 mm",Width:"190 mm","AC Rating":"AC5",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Burned Planks IM1862",brand:"Quick-Step",tex:"tex-lam",img:IL.qsImpBurned,price:"AED 109/m²",specs:{Thickness:"8 mm",Width:"190 mm","AC Rating":"AC5",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Truffle Oak IM8256",brand:"Quick-Step",tex:"tex-lam",img:IL.qsImpTruffle,price:"AED 115/m²",specs:{Thickness:"8 mm",Width:"190 mm","AC Rating":"AC5",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Dune Oak IM8259",brand:"Quick-Step",tex:"tex-lam",img:IL.qsImpDune,price:"AED 115/m²",specs:{Thickness:"8 mm",Width:"190 mm","AC Rating":"AC5",Waterproof:"HydroSeal",Install:"Uniclic"}},
+     ]},
+    {id:"qseli",name:"Quick-Step Eligna",tex:"tex-lam",img:IL.qsEliBan,
+     desc:"Sleek bevel-free planks with HydroSeal technology.",
+     products:[
+      {name:"Oiled Walnut EL1043",brand:"Quick-Step",tex:"tex-lam",img:IL.qsEliOiledW,price:"AED 99/m²",specs:{Thickness:"8 mm",Width:"156 mm","AC Rating":"AC4",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"White Oak Light EL3580",brand:"Quick-Step",tex:"tex-lam",img:IL.qsEliWhiteL,price:"AED 99/m²",specs:{Thickness:"8 mm",Width:"156 mm","AC Rating":"AC4",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Newcastle Oak Dark EL3581",brand:"Quick-Step",tex:"tex-lam",img:IL.qsEliNewcastle,price:"AED 99/m²",specs:{Thickness:"8 mm",Width:"156 mm","AC Rating":"AC4",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Venice Oak Grey EL3906",brand:"Quick-Step",tex:"tex-lam",img:IL.qsEliVeniceG,price:"AED 99/m²",specs:{Thickness:"8 mm",Width:"156 mm","AC Rating":"AC4",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Old Oak Matt Oiled EL312",brand:"Quick-Step",tex:"tex-lam",img:IL.qsEliOld,price:"AED 99/m²",specs:{Thickness:"8 mm",Width:"156 mm","AC Rating":"AC4",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Light Grey Varnish Oak EL1304",brand:"Quick-Step",tex:"tex-lam",img:IL.qsEliLightGrey,price:"AED 99/m²",specs:{Thickness:"8 mm",Width:"156 mm","AC Rating":"AC4",Waterproof:"HydroSeal",Install:"Uniclic"}},
+      {name:"Venice Oak Natural EL3908",brand:"Quick-Step",tex:"tex-lam",img:IL.qsEliVeniceNat,price:"AED 99/m²",specs:{Thickness:"8 mm",Width:"156 mm","AC Rating":"AC4",Waterproof:"HydroSeal",Install:"Uniclic"}},
+     ]},
+    {id:"gprime",name:"Gerbür Prime",tex:"tex-lam",img:IL.gprimeBan,
+     desc:"Deep-embossed texture and ultra-realistic wood finish — 8 premium tones.",
+     products:[
+      {name:"White Spruce GB-PRM-01",brand:"Gerbür",tex:"tex-lam",img:IL.gprimeWhite,price:"AED 85/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Finish:"Deep Emboss",Install:"Click-Lock"}},
+      {name:"Frozen Oak GB-PRM-02",brand:"Gerbür",tex:"tex-lam",img:IL.gprimeFrozen,price:"AED 85/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Finish:"Deep Emboss",Install:"Click-Lock"}},
+      {name:"Camel Oak Beige GB-PRM-03",brand:"Gerbür",tex:"tex-lam",img:IL.gprimeCamelB,price:"AED 85/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Finish:"Deep Emboss",Install:"Click-Lock"}},
+      {name:"Camel Oak Natural GB-PRM-04",brand:"Gerbür",tex:"tex-lam",img:IL.gprimeCamelN,price:"AED 85/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Finish:"Deep Emboss",Install:"Click-Lock"}},
+      {name:"Artisan Dark Brown GB-PRM-05",brand:"Gerbür",tex:"tex-lam",img:IL.gprimeArtisan,price:"AED 85/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Finish:"Deep Emboss",Install:"Click-Lock"}},
+      {name:"Atelier Oak GB-PRM-06",brand:"Gerbür",tex:"tex-lam",img:IL.gprimeAtelier,price:"AED 85/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Finish:"Deep Emboss",Install:"Click-Lock"}},
+      {name:"Dark Walnut GB-PRM-07",brand:"Gerbür",tex:"tex-lam",img:IL.gprimeDarkW,price:"AED 85/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Finish:"Deep Emboss",Install:"Click-Lock"}},
+      {name:"Merbau GB-PRM-08",brand:"Gerbür",tex:"tex-lam",img:IL.gprimeMerbau,price:"AED 85/m²",specs:{Thickness:"8 mm",Width:"193 mm","AC Rating":"AC4",Finish:"Deep Emboss",Install:"Click-Lock"}},
+     ]},
+    {id:"gultra",name:"Gerbür Ultra",tex:"tex-lam",img:IL.gultraBan,
+     desc:"Extra-wide planks with realistic woodgrain — 9 contemporary tones.",
+     products:[
+      {name:"Platinum Blond Oak GB-ULT-02",brand:"Gerbür",tex:"tex-lam",img:IL.gultraPlatinum,price:"AED 95/m²",specs:{Thickness:"12 mm",Width:"245 mm","AC Rating":"AC4",Install:"Click-Lock"}},
+      {name:"Mountain Grey Oak GB-ULT-03",brand:"Gerbür",tex:"tex-lam",img:IL.gultraMtnGrey,price:"AED 95/m²",specs:{Thickness:"12 mm",Width:"245 mm","AC Rating":"AC4",Install:"Click-Lock"}},
+      {name:"Garda Oak GB-ULT-04",brand:"Gerbür",tex:"tex-lam",img:IL.gultraGarda,price:"AED 95/m²",specs:{Thickness:"12 mm",Width:"245 mm","AC Rating":"AC4",Install:"Click-Lock"}},
+      {name:"Natural Blond Oak GB-ULT-05",brand:"Gerbür",tex:"tex-lam",img:IL.gultraNatBlond,price:"AED 95/m²",specs:{Thickness:"12 mm",Width:"245 mm","AC Rating":"AC4",Install:"Click-Lock"}},
+      {name:"Urban Oak GB-ULT-06",brand:"Gerbür",tex:"tex-lam",img:IL.gultraUrban,price:"AED 95/m²",specs:{Thickness:"12 mm",Width:"245 mm","AC Rating":"AC4",Install:"Click-Lock"}},
+      {name:"Medieval Brown Oak GB-ULT-07",brand:"Gerbür",tex:"tex-lam",img:IL.gultraMedBrown,price:"AED 95/m²",specs:{Thickness:"12 mm",Width:"245 mm","AC Rating":"AC4",Install:"Click-Lock"}},
+      {name:"Raven Oak GB-ULT-08",brand:"Gerbür",tex:"tex-lam",img:IL.gultraRaven,price:"AED 95/m²",specs:{Thickness:"12 mm",Width:"245 mm","AC Rating":"AC4",Install:"Click-Lock"}},
+      {name:"Warm White Oak",brand:"Gerbür",tex:"tex-lam",img:IL.gultraWarmWhite,price:"AED 95/m²",specs:{Thickness:"12 mm",Width:"245 mm","AC Rating":"AC4",Install:"Click-Lock"}},
+      {name:"Wheatfield Oak GB-ULT-09",brand:"Gerbür",tex:"tex-lam",img:IL.gultraWheatfield,price:"AED 95/m²",specs:{Thickness:"12 mm",Width:"245 mm","AC Rating":"AC4",Install:"Click-Lock"}},
+     ]},
+    {id:"handel",name:"Gerbür Handel",tex:"tex-lam",img:null,desc:"Authentic handscraped texture — coming soon.",products:[]},
+    {id:"verdi",name:"Gerbür Verdi",tex:"tex-lam",img:null,desc:"Premium natural wood look — coming soon.",products:[]},
+    {id:"wagner",name:"Gerbür Wagner",tex:"tex-lam",img:null,desc:"High-gloss Crystalbrite surface — coming soon.",products:[]},
+  ]},
+  {id:"vinyl",name:"Vinyl Flooring",ico:"droplet",tex:"tex-vinyl",banner:IV.vBan,img:IV.vAquaClick,
+   desc:"100% waterproof, comfortable underfoot — Gerbür, BerryAlloc and Quick-Step.",brands:["Gerbür","Quick-Step","Moduleo"],
+   subs:[
+    {id:"vclick",name:"Vinyl Click",tex:"tex-vinyl",img:IV.vAquaClick,desc:"Easy click-lock, fully waterproof for every room in UAE homes.",
+     products:[
+      {name:"Gerbür Aqua Click Washed Oak",brand:"Gerbür",tex:"tex-vinyl",img:IV.vAquaClick,price:"AED 79/m²",specs:{Thickness:"5 mm",Width:"182 mm",Length:"1220 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"Gerbür Evolution Mocha Jin",brand:"Gerbür",tex:"tex-vinyl",img:IV.vEvolution,price:"AED 85/m²",specs:{Thickness:"5 mm",Width:"182 mm",Length:"1220 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"Gerbür Herringbone Saddlewood",brand:"Gerbür",tex:"tex-vinyl",img:IV.vHerringbone,price:"AED 89/m²",specs:{Pattern:"Herringbone",Thickness:"5 mm",Width:"90 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"Gerbür Vision Coriander 11",brand:"Gerbür",tex:"tex-vinyl",img:IV.vVision,price:"AED 82/m²",specs:{Thickness:"5 mm",Width:"182 mm",Length:"1220 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"Moduleo Layred Dizusa Stone",brand:"Moduleo",tex:"tex-vinyl",img:IV.vModuleo,price:"AED 92/m²",specs:{Thickness:"6 mm",Width:"397 mm",Length:"756 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"Reclaimed Oak Herringbone",brand:"Gerbür",tex:"tex-vinyl",img:IV.vReclaimed,price:"AED 89/m²",specs:{Pattern:"Herringbone",Thickness:"5 mm",Width:"90 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"QS Ambient Grey Slate",brand:"Quick-Step",tex:"tex-vinyl",img:IV.vQsAmbient,price:"AED 95/m²",specs:{Thickness:"4 mm",Width:"305 mm",Length:"610 mm",Waterproof:"100%",Install:"Uniclic"}},
+     ]},
+    {id:"lvt",name:"Luxury Vinyl Tiles LVT",tex:"tex-vinyl",img:IV.lvtNature,desc:"Premium tile format with ultra-realistic texture and stone effects.",
+     products:[
+      {name:"Gerbür Nature White Willow",brand:"Gerbür",tex:"tex-vinyl",img:IV.lvtNature,price:"AED 75/m²",specs:{Format:"Tile",Thickness:"5 mm",Waterproof:"100%",Install:"Glue-down"}},
+      {name:"Pure Planks Authentic Oak Light Grey",brand:"Pure",tex:"tex-vinyl",img:IV.lvtPurePlanks,price:"AED 79/m²",specs:{Format:"Plank",Thickness:"5 mm",Waterproof:"100%",Install:"Click"}},
+      {name:"Pure Tiles Zinc 616M",brand:"Pure",tex:"tex-vinyl",img:IV.lvtPureTiles,price:"AED 72/m²",specs:{Format:"Tile",Thickness:"4 mm",Waterproof:"100%",Install:"Glue-down"}},
+      {name:"QS Balance Vintage Chestnut Natural",brand:"Quick-Step",tex:"tex-vinyl",img:IV.lvtQsBalance,price:"AED 95/m²",specs:{Format:"Plank",Thickness:"6 mm",Waterproof:"100%",Install:"Click"}},
+     ]},
+    {id:"sheet",name:"Sheet Vinyl",tex:"tex-vinyl",img:IV.sheetEclipse,desc:"Seamless coverage for large areas — hygienic, durable and easy to maintain.",
+     products:[
+      {name:"Eclipse 50 Eviana M98",brand:"Eclipse",tex:"tex-vinyl",img:IV.sheetEclipse,price:"AED 45/m²",specs:{Format:"Sheet",Width:"4 m roll",Thickness:"2.5 mm",Waterproof:"100%",Install:"Glue-down"}},
+      {name:"Allure London Stone T30",brand:"Allure",tex:"tex-vinyl",img:IV.sheetAllure,price:"AED 42/m²",specs:{Format:"Sheet",Width:"4 m roll",Thickness:"2.5 mm",Waterproof:"100%",Install:"Glue-down"}},
+      {name:"Mars Padua T91",brand:"Mars",tex:"tex-vinyl",img:IV.sheetMars,price:"AED 40/m²",specs:{Format:"Sheet",Width:"4 m roll",Thickness:"2.5 mm",Waterproof:"100%",Install:"Glue-down"}},
+      {name:"Silento 50 Tavel T02",brand:"Silento",tex:"tex-vinyl",img:IV.sheetSilento,price:"AED 40/m²",specs:{Format:"Sheet",Width:"4 m roll",Thickness:"2.5 mm",Waterproof:"100%",Install:"Glue-down"}},
+      {name:"Polished Concrete Effect",brand:"Various",tex:"tex-vinyl",img:IV.sheetPolished,price:"AED 38/m²",specs:{Format:"Sheet",Width:"4 m roll",Thickness:"2.5 mm",Waterproof:"100%",Install:"Glue-down"}},
+     ]},
+   ]},
+  {id:"spc",name:"SPC Flooring",ico:"hexagon",tex:"tex-spc",banner:IS.spcBan,img:IS.spcLimed,
+   desc:"100% waterproof rigid Stone Plastic Composite — Gerbür Engage collection.",brands:["Gerbür","Engage"],
+   subs:[
+    {id:"engage",name:"Engage SPC",tex:"tex-spc",img:IS.spcBan,desc:"Rigid core with authentic wood visuals. 100% waterproof, click-lock.",
+     products:[
+      {name:"Oak Limed GB-ENG-SPC-01",brand:"Gerbür",tex:"tex-spc",img:IS.spcLimed,price:"AED 95/m²",specs:{Thickness:"6 mm",Core:"Stone Plastic Composite",Width:"178 mm",Length:"1220 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"Oak Grey GB-ENG-SPC-02",brand:"Gerbür",tex:"tex-spc",img:IS.spcGrey,price:"AED 95/m²",specs:{Thickness:"6 mm",Core:"Stone Plastic Composite",Width:"178 mm",Length:"1220 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"Smoked Oak Coffee GB-ENG-SPC-03",brand:"Gerbür",tex:"tex-spc",img:IS.spcSmoked,price:"AED 95/m²",specs:{Thickness:"6 mm",Core:"Stone Plastic Composite",Width:"178 mm",Length:"1220 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"Golden Oak GB-ENG-SPC-04",brand:"Gerbür",tex:"tex-spc",img:IS.spcGolden4,price:"AED 95/m²",specs:{Thickness:"6 mm",Core:"Stone Plastic Composite",Width:"178 mm",Length:"1220 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"Golden Oak GB-ENG-SPC-05",brand:"Gerbür",tex:"tex-spc",img:IS.spcGolden5,price:"AED 95/m²",specs:{Thickness:"6 mm",Core:"Stone Plastic Composite",Width:"178 mm",Length:"1220 mm",Waterproof:"100%",Install:"Click-Lock"}},
+      {name:"Oak Dark GB-ENG-SPC-06",brand:"Gerbür",tex:"tex-spc",img:IS.spcDark,price:"AED 95/m²",specs:{Thickness:"6 mm",Core:"Stone Plastic Composite",Width:"178 mm",Length:"1220 mm",Waterproof:"100%",Install:"Click-Lock"}},
+     ]},
+   ]},
+  {id:"carpet",name:"Carpet Flooring",ico:"sofa",tex:"tex-carpet",banner:IC.carpetBan,img:IC.cBcmHur,
+   desc:"Luxury comfort — British Carpet Mills, Balta, Mohawk, Lano collections.",brands:["British Carpet Mills","Balta","Mohawk","Lano"],
+   subs:[
+    {id:"ctiles",name:"Carpet Tiles",tex:"tex-carpet",img:IC.ctilesBan,desc:"Modular tiles for offices, hotels and commercial spaces.",
+     products:[
+      {name:"Sky Gardens 575",brand:"BCM",tex:"tex-carpet",img:IC.cSkyGardens,price:"AED 55/tile",specs:{Format:"500x500 mm",Pile:"Loop",Use:"Hotel Office",Install:"Glue-down"}},
+      {name:"Q1480A 02 Tor 01",brand:"BCM",tex:"tex-carpet",img:IC.cQ1480,price:"AED 50/tile",specs:{Format:"500x500 mm",Pile:"Cut & Loop",Install:"Glue-down"}},
+      {name:"Shark 559 Stuttgart",brand:"BCM",tex:"tex-carpet",img:IC.cShark,price:"AED 48/tile",specs:{Format:"500x500 mm",Pile:"Loop",Use:"Office",Install:"Glue-down"}},
+      {name:"Viper 559 979",brand:"BCM",tex:"tex-carpet",img:IC.cViper,price:"AED 55/tile",specs:{Format:"500x500 mm",Pile:"Loop",Use:"Luxury Reception",Install:"Glue-down"}},
+      {name:"BCM Signature Autumn 08",brand:"BCM",tex:"tex-carpet",img:IC.cBcmAut,price:"AED 52/tile",specs:{Format:"500x500 mm",Pile:"Cut Loop",Use:"Boardroom",Install:"Glue-down"}},
+      {name:"BCM Signature Hurricane",brand:"BCM",tex:"tex-carpet",img:IC.cBcmHur,price:"AED 52/tile",specs:{Format:"500x500 mm",Pile:"Cut Loop",Use:"Hotel Lobby",Install:"Glue-down"}},
+      {name:"BCM Casini 548",brand:"BCM",tex:"tex-carpet",img:IC.cBcmCasini,price:"AED 50/tile",specs:{Format:"500x500 mm",Pile:"Loop",Use:"Corporate Lounge",Install:"Glue-down"}},
+     ]},
+    {id:"wtw",name:"Wall to Wall Carpet",tex:"tex-carpet",img:IC.wtwBan,desc:"Plush seamless carpet for villas, bedrooms, prayer rooms and hotels.",
+     products:[
+      {name:"Duchesse Deluxe",brand:"BCM",tex:"tex-carpet",img:IC.wtwDuchesse,price:"AED 85/m²",specs:{Width:"4 m roll",Pile:"Cut Pile",Use:"Office Reception",Install:"Stretch-in"}},
+      {name:"Beaulieu Faye 06",brand:"Beaulieu",tex:"tex-carpet",img:IC.wtwFaye,price:"AED 92/m²",specs:{Width:"4 m roll",Pile:"Saxony",Use:"Villa Majlis",Install:"Stretch-in"}},
+      {name:"Beaulieu Jaip 01",brand:"Beaulieu",tex:"tex-carpet",img:IC.wtwJaip,price:"AED 95/m²",specs:{Width:"4 m roll",Pile:"Saxony",Use:"Hotel Lobby",Install:"Stretch-in"}},
+      {name:"Beaulieu Opt 02",brand:"Beaulieu",tex:"tex-carpet",img:IC.wtwOpt,price:"AED 88/m²",specs:{Width:"4 m roll",Pile:"Saxony",Use:"Showroom",Install:"Stretch-in"}},
+      {name:"BCM Grand Escape 05",brand:"BCM",tex:"tex-carpet",img:IC.wtwGrandEscape,price:"AED 90/m²",specs:{Width:"4 m roll",Pile:"Twist",Use:"Home Library",Install:"Stretch-in"}},
+      {name:"BCM Savage Abundance 06",brand:"BCM",tex:"tex-carpet",img:IC.wtwSavage,price:"AED 88/m²",specs:{Width:"4 m roll",Pile:"Berber",Use:"Lounge",Install:"Stretch-in"}},
+      {name:"BCM Stanage Edge 03",brand:"BCM",tex:"tex-carpet",img:IC.wtwStanage,price:"AED 92/m²",specs:{Width:"4 m roll",Pile:"Twist",Use:"Luxury Living",Install:"Stretch-in"}},
+      {name:"Balta Primrose 08",brand:"Balta",tex:"tex-carpet",img:IC.wtwPrimrose,price:"AED 75/m²",specs:{Width:"4 m roll",Pile:"Loop",Use:"Corridor",Install:"Glue-down"}},
+      {name:"Balta Amaryllis 01",brand:"Balta",tex:"tex-carpet",img:IC.wtwAmaryllis,price:"AED 78/m²",specs:{Width:"4 m roll",Pile:"Cut Pile",Use:"Villa Living Room",Install:"Stretch-in"}},
+     ]},
+   ]},
+  {id:"outdoors",name:"Outdoors",ico:"sun",tex:"tex-out",banner:IO.deckBan,img:IO.deckChoc,
+   desc:"Durable, UV-resistant surfaces for UAE outdoor living.",brands:["Smart Board","Floorworld"],
+   subs:[
+    {id:"deck",name:"Decking",tex:"tex-out",img:IO.deckBan,desc:"Composite Wood-Polymer decking — UV-resistant, 6 tones.",
+     products:[
+      {name:"Decking Chocolate",brand:"Smart Board",tex:"tex-out",img:IO.deckChoc,price:"AED 185/m²",specs:{Material:"Composite",Width:"140 mm",Board:"3600 mm",UV:"100% Resistant",Install:"Clip System"}},
+      {name:"Decking Grey",brand:"Smart Board",tex:"tex-out",img:IO.deckGrey,price:"AED 185/m²",specs:{Material:"Composite",Width:"140 mm",Board:"3600 mm",UV:"100% Resistant",Install:"Clip System"}},
+      {name:"Decking Sahara",brand:"Smart Board",tex:"tex-out",img:IO.deckSahara,price:"AED 185/m²",specs:{Material:"Composite",Width:"140 mm",Board:"3600 mm",UV:"100% Resistant",Install:"Clip System"}},
+      {name:"Decking Slate",brand:"Smart Board",tex:"tex-out",img:IO.deckSlate,price:"AED 185/m²",specs:{Material:"Composite",Width:"140 mm",Board:"3600 mm",UV:"100% Resistant",Install:"Clip System"}},
+      {name:"Decking Tobacco",brand:"Smart Board",tex:"tex-out",img:IO.deckTobacco,price:"AED 185/m²",specs:{Material:"Composite",Width:"140 mm",Board:"3600 mm",UV:"100% Resistant",Install:"Clip System"}},
+      {name:"Decking Warm Grey",brand:"Smart Board",tex:"tex-out",img:IO.deckWarmGrey,price:"AED 185/m²",specs:{Material:"Composite",Width:"140 mm",Board:"3600 mm",UV:"100% Resistant",Install:"Clip System"}},
+     ]},
+    {id:"grass",name:"Artificial Grass",tex:"tex-out",img:IO.grassBan,desc:"Realistic lush turf — 8 species, zero maintenance, UV stabilised.",
+     products:[
+      {name:"Bahia 30",brand:"Floorworld",tex:"tex-out",img:IO.grassBahia,price:"AED 55/m²",specs:{"Pile Height":"30 mm","Blade":"W-Shape",Backing:"PP + Latex",Infill:"Silica Sand"}},
+      {name:"Redwood 30",brand:"Floorworld",tex:"tex-out",img:IO.grassRedwood30,price:"AED 58/m²",specs:{"Pile Height":"30 mm","Blade":"W-Shape",Backing:"PP + Latex",Infill:"Silica Sand"}},
+      {name:"Barun 35",brand:"Floorworld",tex:"tex-out",img:IO.grassBarun,price:"AED 62/m²",specs:{"Pile Height":"35 mm","Blade":"C-Shape",Backing:"PP + Latex",Infill:"Silica Sand"}},
+      {name:"Redwood 34",brand:"Floorworld",tex:"tex-out",img:IO.grassRedwood34,price:"AED 60/m²",specs:{"Pile Height":"34 mm","Blade":"W-Shape",Backing:"PP + Latex",Infill:"Silica Sand"}},
+      {name:"Redwood 40",brand:"Floorworld",tex:"tex-out",img:IO.grassRedwood40,price:"AED 65/m²",specs:{"Pile Height":"40 mm","Blade":"W-Shape",Backing:"PP + Latex",Infill:"Silica Sand"}},
+      {name:"Kakadu 30",brand:"Floorworld",tex:"tex-out",img:IO.grassKakadu,price:"AED 55/m²",specs:{"Pile Height":"30 mm","Blade":"W-Shape",Backing:"PP + Latex",Infill:"Silica Sand"}},
+      {name:"Ceneca 40",brand:"Floorworld",tex:"tex-out",img:IO.grassCeneca,price:"AED 65/m²",specs:{"Pile Height":"40 mm","Blade":"C-Shape",Backing:"PP + Latex",Infill:"Silica Sand"}},
+      {name:"Tahoe 45",brand:"Floorworld",tex:"tex-out",img:IO.grassTahoe,price:"AED 70/m²",specs:{"Pile Height":"45 mm","Blade":"C-Shape",Backing:"PP + Latex",Infill:"Silica Sand"}},
+     ]},
+   ]},
+  {id:"accessories",name:"Flooring Accessories",ico:"wrench",tex:"tex-acc",banner:IA.skirtOverview,img:IA.skirtOverview,
+   desc:"Professional finishing — skirtings, profiles, underlay and care products.",brands:["Royal Parquet","Gerbür","Rubio Monocoat"],
+   subs:[
+    {id:"skirt",name:"Skirtings",tex:"tex-acc",img:IA.skirtOverview,desc:"Laminate, oak veneer, solid oak and white foiled skirtings.",
+     products:[
+      {name:"RP Wood Veneer L-Cover Skirting",brand:"Royal Parquet",tex:"tex-acc",img:IA.skirtVeneerLC,price:"AED 45/LM",specs:{Material:"MDF + Oak Veneer",Size:"2440x100x25 mm"}},
+      {name:"RP Wood Veneer Skirting",brand:"Royal Parquet",tex:"tex-acc",img:IA.skirtVeneer,price:"AED 38/LM",specs:{Material:"MDF + Oak Veneer",Size:"2220x100x14 mm"}},
+      {name:"RP Solid Oak Skirting",brand:"Royal Parquet",tex:"tex-acc",img:IA.skirtSolid,price:"AED 55/LM",specs:{Material:"Solid Wood",Size:"2130x100x15 mm"}},
+      {name:"White Foiled Lacquered Skirting",brand:"Royal Parquet",tex:"tex-acc",img:IA.skirtWhite,price:"AED 22/LM",specs:{Finish:"White Foiled Lacquer",Height:"80 mm",Length:"2400 mm"}},
+     ]},
+    {id:"tbar",name:"Solid T-Bar",tex:"tex-acc",img:IA.tbarFrosted,desc:"AB Grade Oak T-Bar profiles — 22 matching colour tones.",
+     products:[
+      {name:"Solid T-Bar All Colours",brand:"Royal Parquet",tex:"tex-acc",img:IA.tbarFrosted,price:"AED 37/LM",specs:{Profile:"T-Bar",Material:"AB Grade Oak",Length:"2130 mm",Colours:"22 Boa tones"}},
+     ]},
+    {id:"langle",name:"L-Angle Stair Nosing",tex:"tex-acc",img:IA.lAngleFrosted,desc:"AB Grade Oak stair nosing — 22 matching colour tones.",
+     products:[
+      {name:"L-Angle 15mm Stair Nosing",brand:"Royal Parquet",tex:"tex-acc",img:IA.lAngleFrosted,price:"AED 65/LM",specs:{Size:"2130x50x50x15 mm",Material:"AB Grade Oak",Colours:"22 tones"}},
+      {name:"L-Angle 5mm Stair Nosing",brand:"Royal Parquet",tex:"tex-acc",img:IA.lAngleFrosted,price:"AED 48/LM",specs:{Size:"2130x50x50x5 mm",Material:"AB Grade Oak",Colours:"22 tones"}},
+     ]},
+    {id:"underlay",name:"Underlay",tex:"tex-acc",img:IA.underlayAirBlue,desc:"EVA, EPE, rubber and PU foam underlays for all flooring types.",
+     products:[
+      {name:"15mm EVA Underlay",brand:"Floorworld",tex:"tex-acc",img:IA.underlayEva,price:"AED 8/m²",specs:{Type:"EVA Foam",Thickness:"15 mm",Use:"Laminate & Engineered"}},
+      {name:"3mm EPE Underlay",brand:"Floorworld",tex:"tex-acc",img:IA.underlayEpe,price:"AED 5/m²",specs:{Type:"EPE Foam",Thickness:"3 mm",Use:"Laminate & SPC"}},
+      {name:"Air Step Basic",brand:"Floorworld",tex:"tex-acc",img:IA.underlayAirBasic,price:"AED 6/m²",specs:{Type:"PU Foam Roll",Thickness:"3 mm",Use:"Laminate & Engineered"}},
+      {name:"Air Step Blue Supreme",brand:"Floorworld",tex:"tex-acc",img:IA.underlayAirBlue,price:"AED 9/m²",specs:{Type:"PU Foam + Blue Film",Thickness:"3 mm",Use:"Laminate & Engineered"}},
+      {name:"System Ten Underlay",brand:"System Ten",tex:"tex-acc",img:IA.underlaySystem,price:"AED 12/m²",specs:{Type:"Rubber Composite",Thickness:"10 mm",Use:"Engineered & Parquet"}},
+      {name:"Egalsoft Underlay",brand:"Egalsoft",tex:"tex-acc",img:IA.underlayEgal,price:"AED 11/m²",specs:{Type:"PU Foam",Thickness:"5 mm",Use:"Laminate & Vinyl"}},
+      {name:"36mm Rubber Underlay",brand:"Floorworld",tex:"tex-acc",img:IA.underlayRubber,price:"AED 18/m²",specs:{Type:"Rubber",Thickness:"36 mm",Use:"Commercial Heavy Duty"}},
+     ]},
+    {id:"aftercare",name:"After Care",tex:"tex-acc",img:IA.careGerbur,desc:"Specialist floor cleaning — Gerbür, Rubio Monocoat and Royal Parquet.",
+     products:[
+      {name:"Gerbür Laminate Floor Cleaner",brand:"Gerbür",tex:"tex-acc",img:IA.careGerbur,price:"AED 45",specs:{For:"Laminate",Size:"1 Litre",Type:"Spray Cleaner"}},
+      {name:"Gerbür Vinyl Floor Cleaner",brand:"Gerbür",tex:"tex-acc",img:IA.careVinyl,price:"AED 45",specs:{For:"Vinyl & SPC",Size:"1 Litre",Type:"Spray Cleaner"}},
+      {name:"RMC Surface Care",brand:"Rubio Monocoat",tex:"tex-acc",img:IA.careRmc,price:"AED 65",specs:{For:"Oiled Wood",Size:"1 Litre",Type:"Maintenance Oil"}},
+      {name:"Rubio Monocoat Soap",brand:"Rubio Monocoat",tex:"tex-acc",img:IA.careRubio,price:"AED 58",specs:{For:"Oiled Wood",Size:"1 Litre",Type:"Wood Soap"}},
+      {name:"RMC Grease Remover",brand:"Rubio Monocoat",tex:"tex-acc",img:IA.careRmcGrease,price:"AED 55",specs:{For:"Oiled Wood",Size:"500 ml",Type:"Spot Cleaner"}},
+      {name:"RMC Limespot Remover",brand:"Rubio Monocoat",tex:"tex-acc",img:IA.careRmcLime,price:"AED 55",specs:{For:"Oiled Wood",Size:"500 ml",Type:"Stain Remover"}},
+      {name:"RP Hardwood Floor Cleaner",brand:"Royal Parquet",tex:"tex-acc",img:IA.careRpWood,price:"AED 48",specs:{For:"Lacquered Wood",Size:"1 Litre",Type:"Spray Cleaner"}},
+      {name:"RMC Refresh Eco Spray",brand:"Rubio Monocoat",tex:"tex-acc",img:IA.careRmcRefresh,price:"AED 62",specs:{For:"Oiled Wood",Size:"1 Litre",Type:"Refresh Spray"}},
+      {name:"RMC Tannin Remover",brand:"Rubio Monocoat",tex:"tex-acc",img:IA.careRmcTannin,price:"AED 52",specs:{For:"Oiled Wood",Size:"500 ml",Type:"Pre-Treatment"}},
+      {name:"RM Maintenance Oil",brand:"Rubio Monocoat",tex:"tex-acc",img:IA.careRmOil,price:"AED 78",specs:{For:"Oiled Wood",Size:"100 ml",Type:"Maintenance Oil"}},
+     ]},
+   ]},
+  {id:"clearance",name:"Clearance Sale",emoji:"🏷️",tex:"tex-clear",banner:I.gUltra,img:I.gUltra,
+   desc:"Premium European flooring at unbeatable clearance prices.",brands:[],subs:[]},
+];
+
+// STATE
+let state={tab:"home",cat:null,sub:null,prod:null,basket:[],abt:"about",sent:false,
+  form:{name:"",phone:"",email:"",space:"",area:"",notes:""}};
+function setState(u){Object.assign(state,u);render();}
 
 // HELPERS
-function el(tag, props={}, ...children) {
-  const e = document.createElement(tag);
-  Object.entries(props).forEach(([k,v]) => {
-    if(k==="style" && typeof v==="object") Object.assign(e.style, v);
+function el(tag,props={},...children){
+  const e=document.createElement(tag);
+  Object.entries(props).forEach(([k,v])=>{
+    if(k==="style"&&typeof v==="object") Object.assign(e.style,v);
     else if(k==="className") e.className=v;
-    else if(k.startsWith("on")) e.addEventListener(k.slice(2).toLowerCase(), v);
+    else if(k.startsWith("on")) e.addEventListener(k.slice(2).toLowerCase(),v);
     else e.setAttribute(k,v);
   });
-  children.flat().forEach(c => {
+  children.flat().forEach(c=>{
     if(c===null||c===undefined) return;
-    e.appendChild(typeof c==="string"||typeof c==="number" ? document.createTextNode(c) : c);
+    e.appendChild(typeof c==="string"||typeof c==="number"?document.createTextNode(c):c);
   });
   return e;
 }
+function div(props,...c){return el("div",props,...c);}
+function span(props,...c){return el("span",props,...c);}
 
-function div(props,...children){return el("div",props,...children);}
-function span(props,...children){return el("span",props,...children);}
 function img2(src,tex,w,h){
   const i=document.createElement("img");
-  i.src=src; i.referrerPolicy="no-referrer"; i.crossOrigin="anonymous";
-  Object.assign(i.style,{width:w,height:h,objectFit:"cover",display:"block",flexShrink:0});
-  i.onerror=()=>{const d=document.createElement("div");d.className=tex;Object.assign(d.style,{width:w,height:h,flexShrink:0});i.parentNode&&i.parentNode.replaceChild(d,i);};
+  i.src=src;
+  Object.assign(i.style,{width:w,height:h,objectFit:"cover",display:"block",flexShrink:"0"});
+  i.onerror=()=>{
+    const d=document.createElement("div");
+    d.className=tex;
+    Object.assign(d.style,{width:w,height:h,flexShrink:"0"});
+    i.parentNode&&i.parentNode.replaceChild(d,i);
+  };
   return i;
 }
+
 function secTitle(t){return div({className:"sec-title"},t);}
-function btnPrimary(text,onClick){const b=el("button",{className:"btn-primary",onClick},text);return b;}
+function btnPrimary(text,onClick){return el("button",{className:"btn-primary",onClick},text);}
 function btnOutline(text,href){return el("a",{className:"btn-outline",href},text);}
 
 // LOGO
 function logoBanner(){
   const wrap=div({className:"logo-banner"});
   const logo=document.createElement("img");
-  logo.src=I.logo; logo.alt="Floorworld LLC"; logo.referrerPolicy="no-referrer";
+  logo.src=LOGO_3D; logo.alt="Floorworld LLC";
   logo.style.cssText="height:48px;max-width:100%;object-fit:contain;object-position:left;";
   logo.onerror=()=>{
     wrap.innerHTML="";
     const fb=div({style:{display:"flex",alignItems:"center",gap:"0",lineHeight:"1"}},
       span({style:{color:"#fff",fontWeight:"900",fontSize:"32px",letterSpacing:"-0.5px"}},"FLOORW"),
-      (() => {
-        const s=document.createElementNS("http://www.w3.org/2000/svg","svg");
-        s.setAttribute("width","33"); s.setAttribute("height","33"); s.setAttribute("viewBox","0 0 33 33");
-        s.innerHTML='<circle cx="16.5" cy="16.5" r="15" fill="none" stroke="#fff" stroke-width="2"/><ellipse cx="16.5" cy="16.5" rx="7.5" ry="15" fill="none" stroke="#fff" stroke-width="1.5"/><line x1="1.5" y1="16.5" x2="31.5" y2="16.5" stroke="#fff" stroke-width="1.5"/><line x1="3" y1="9.5" x2="30" y2="9.5" stroke="#fff" stroke-width="1"/><line x1="3" y1="23.5" x2="30" y2="23.5" stroke="#fff" stroke-width="1"/>';
-        return s;
-      })(),
+      (()=>{const s=document.createElementNS("http://www.w3.org/2000/svg","svg");s.setAttribute("width","33");s.setAttribute("height","33");s.setAttribute("viewBox","0 0 33 33");s.innerHTML='<circle cx="16.5" cy="16.5" r="15" fill="none" stroke="#fff" stroke-width="2"/><ellipse cx="16.5" cy="16.5" rx="7.5" ry="15" fill="none" stroke="#fff" stroke-width="1.5"/><line x1="1.5" y1="16.5" x2="31.5" y2="16.5" stroke="#fff" stroke-width="1.5"/>';return s;})(),
       span({style:{color:"#fff",fontWeight:"900",fontSize:"32px",letterSpacing:"-0.5px"}},"RLD"),
       span({style:{color:"#fff",fontWeight:"700",fontSize:"15px",alignSelf:"flex-start",marginTop:"3px",marginLeft:"4px"}},"LLC")
     );
-    const tag=div({className:"logo-tagline"},"THE BIGGEST FLOORING COMPANY IN THE MIDDLE EAST");
+    const tag=div({style:{color:"rgba(0,0,0,.52)",fontSize:"8.5px",fontWeight:"700",letterSpacing:"1.6px",marginTop:"4px"}},"THE BIGGEST FLOORING COMPANY IN THE MIDDLE EAST");
     wrap.appendChild(fb); wrap.appendChild(tag);
   };
   wrap.appendChild(logo);
   return wrap;
 }
 
+function logoHeader(){
+  const wrap=document.createElement("div");wrap.style.cssText="display:flex;align-items:center;";
+  const logo=document.createElement("img");
+  logo.src=LOGO_FLAT;logo.alt="Floorworld";logo.style.cssText="height:26px;object-fit:contain;";
+  logo.onerror=()=>{logo.style.display="none";const t=document.createElement("div");t.style.cssText="font-family:'Oswald',sans-serif;font-size:14px;font-weight:700;color:#fff";t.textContent="FLOORWORLD";wrap.appendChild(t);};
+  wrap.appendChild(logo);return wrap;
+}
+
 function logoCompact(){
   return div({className:"logo-compact"},
     div({className:"logo-badge"},"FW"),
-    div({},
-      div({className:"logo-text-main"},"FLOORWORLD"),
-      div({className:"logo-text-sub"},"PREMIUM FLOORING · UAE")
-    )
+    div({},div({className:"logo-text-main"},"FLOORWORLD"),div({className:"logo-text-sub"},"PREMIUM FLOORING · UAE"))
   );
 }
 
 // ── SCREENS ──
 function renderHome(){
   const frag=document.createDocumentFragment();
-
-  // Logo
   frag.appendChild(logoBanner());
 
-  // Hero
+  // Hero video
   const hero=div({style:{position:"relative",height:"220px",overflow:"hidden"}});
   const vid=document.createElement("video");
   vid.src=I.heroVideo; vid.autoplay=true; vid.muted=true; vid.loop=true; vid.playsInline=true;
   vid.style.cssText="width:100%;height:220px;object-fit:cover;display:block;";
-  vid.onerror=()=>{hero.insertBefore(img2(I.hero,"tex-dark","100%","220px"),vid);vid.remove();};
+  vid.onerror=()=>{hero.insertBefore(img2(IW.oxford,"tex-dark","100%","220px"),vid);vid.remove();};
   hero.appendChild(vid);
   const ho=div({style:{position:"absolute",inset:"0",background:"linear-gradient(to bottom,rgba(7,7,7,.2),rgba(7,7,7,.88))"}});
   const hc=div({style:{position:"absolute",bottom:"0",left:"0",right:"0",padding:"0 18px 22px"}});
   hc.appendChild(div({style:{color:GD,fontSize:"9px",fontWeight:"700",letterSpacing:"3px",marginBottom:"7px"}},"ESTABLISHED 2009 · UAE & GCC"));
   const h1=document.createElement("h1");
-  h1.style.cssText="color:#fff;font-size:21px;font-weight:900;line-height:1.2;margin-bottom:12px;";
+  h1.style.cssText="color:#fff;font-size:21px;font-weight:900;line-height:1.2;margin-bottom:12px;font-family:'Oswald',sans-serif;";
   h1.textContent="Premium Flooring for Homes & Commercial Spaces";
   hc.appendChild(h1);
   const btns=div({style:{display:"flex",gap:"9px"}});
-  const qb=el("button",{style:{background:OG,border:"none",color:"#fff",padding:"10px 18px",borderRadius:"6px",fontSize:"11px",fontWeight:"800",cursor:"pointer",fontFamily:"Montserrat,sans-serif"},onClick:()=>setState({tab:"contact"})},"FREE QUOTE →");
-  const cb=el("a",{href:"tel:80035667",style:{background:"rgba(255,255,255,.1)",border:"1px solid rgba(255,255,255,.2)",color:"#fff",padding:"10px 14px",borderRadius:"6px",fontSize:"11px",fontWeight:"600",textDecoration:"none"}},"📞 800 FLOOR");
-  btns.appendChild(qb); btns.appendChild(cb);
+  btns.appendChild(el("button",{style:{background:OG,border:"none",color:"#fff",padding:"10px 18px",borderRadius:"6px",fontSize:"11px",fontWeight:"800",cursor:"pointer"},onClick:()=>setState({tab:"contact"})},"FREE QUOTE →"));
+  btns.appendChild(el("a",{href:"tel:80035667",style:{background:"rgba(255,255,255,.1)",border:"1px solid rgba(255,255,255,.2)",color:"#fff",padding:"10px 14px",borderRadius:"6px",fontSize:"11px",fontWeight:"600",textDecoration:"none"}},"📞 800 FLOOR"));
   hc.appendChild(btns);
   hero.appendChild(ho); hero.appendChild(hc);
   frag.appendChild(hero);
 
-  // USP
+  // USP bar
   const usp=div({className:"usp-bar"});
-  ["✓ Free Shipping UAE","✓ Free Samples","✓ Price Match","✓ Free Estimates","✓ 24hr Quote"].forEach(u=>{
-    usp.appendChild(div({className:"usp-item"},u));
-  });
+  ["✓ Free Shipping UAE","✓ Free Samples","✓ Price Match","✓ Free Estimates","✓ 24hr Quote"].forEach(u=>usp.appendChild(div({className:"usp-item"},u)));
   frag.appendChild(usp);
 
   // Quote strip
   const qs=div({style:{margin:"14px 14px 0",background:"linear-gradient(135deg,#150800,#111)",borderRadius:"10px",padding:"14px 16px",border:`1px solid ${OG}35`,display:"flex",alignItems:"center",gap:"12px"}});
-  qs.appendChild(img2(I.measure,"tex-wood","60px","44px"));
+  qs.appendChild(img2(IW.oxford,"tex-wood","60px","44px"));
   const qt=div({style:{flex:"1"}});
   qt.appendChild(div({style:{color:"#fff",fontSize:"13px",fontWeight:"800"}},"Free Site Visit & Quote"));
   qt.appendChild(div({style:{color:"#777",fontSize:"10px",marginTop:"2px"}},"Within 24 hours — anywhere in UAE"));
   qs.appendChild(qt);
-  const bkb=el("button",{style:{background:OG,border:"none",color:"#fff",padding:"10px 14px",borderRadius:"6px",fontSize:"11px",fontWeight:"800",cursor:"pointer",flexShrink:"0",fontFamily:"Montserrat,sans-serif"},onClick:()=>setState({tab:"contact"})},"BOOK →");
-  qs.appendChild(bkb);
+  qs.appendChild(el("button",{style:{background:OG,border:"none",color:"#fff",padding:"10px 14px",borderRadius:"6px",fontSize:"11px",fontWeight:"800",cursor:"pointer",flexShrink:"0"},onClick:()=>setState({tab:"contact"})},"BOOK →"));
   frag.appendChild(qs);
 
   // Category grid
@@ -420,7 +621,6 @@ function renderHome(){
   why.appendChild(wg);
   frag.appendChild(why);
 
-  // Certs
   const cert=div({style:{padding:"14px 14px 8px"}});
   cert.appendChild(secTitle("CERTIFIED & COMPLIANT"));
   const cr=div({style:{display:"flex",gap:"6px",flexWrap:"wrap"}});
@@ -429,7 +629,6 @@ function renderHome(){
   });
   cert.appendChild(cr);
   frag.appendChild(cert);
-
   return frag;
 }
 
@@ -462,29 +661,23 @@ function renderCatPage(cat){
   const hc=div({style:{position:"absolute",bottom:"16px",left:"16px",right:"16px"}});
   hc.appendChild(div({style:{color:GD,fontSize:"9px",fontWeight:"700",letterSpacing:"2px",marginBottom:"4px"}},cat.emoji+" FLOORWORLD COLLECTION"));
   const h2=document.createElement("h2");
-  h2.style.cssText="color:#fff;font-size:24px;font-weight:900;margin:0;line-height:1.15;";
+  h2.style.cssText="color:#fff;font-size:24px;font-weight:900;margin:0;line-height:1.15;font-family:'Oswald',sans-serif;";
   h2.textContent=cat.name;
   hc.appendChild(h2);
   hero.appendChild(hc);
   frag.appendChild(hero);
-
   const wrap=div({style:{padding:"14px"}});
   const dp=document.createElement("p");
   dp.style.cssText="color:#888;font-size:12px;line-height:1.75;margin-bottom:16px;";
   dp.textContent=cat.desc;
   wrap.appendChild(dp);
-
   if(cat.brands.length>0){
     const bc=div({style:{background:"#101010",borderRadius:"8px",padding:"12px",marginBottom:"16px",border:"1px solid #1A1A1A"}});
     bc.appendChild(div({style:{color:"#444",fontSize:"9px",fontWeight:"800",letterSpacing:"2px",marginBottom:"8px"}},"FEATURED BRANDS"));
     const br=div({style:{display:"flex",flexWrap:"wrap",gap:"6px"}});
-    cat.brands.forEach(b=>{
-      br.appendChild(span({className:"brand-tag"},b));
-    });
-    bc.appendChild(br);
-    wrap.appendChild(bc);
+    cat.brands.forEach(b=>br.appendChild(span({className:"brand-tag"},b)));
+    bc.appendChild(br); wrap.appendChild(bc);
   }
-
   if(cat.subs.length>0){
     wrap.appendChild(secTitle("COLLECTIONS"));
     cat.subs.forEach(s=>{
@@ -510,7 +703,6 @@ function renderCatPage(cat){
     cl.appendChild(div({style:{padding:"14px",color:"#666",fontSize:"12px",lineHeight:"1.6"}},"Limited stock at unbeatable prices. Contact us for availability."));
     wrap.appendChild(cl);
   }
-
   wrap.appendChild(btnPrimary("📝 REQUEST A QUOTE",()=>setState({tab:"contact"})));
   wrap.appendChild(btnOutline("📞 CALL: 800 FLOOR (35667)","tel:80035667"));
   frag.appendChild(wrap);
@@ -525,18 +717,16 @@ function renderSubPage(sub,cat){
   const hc=div({style:{position:"absolute",bottom:"14px",left:"16px",right:"16px"}});
   hc.appendChild(div({style:{color:GD,fontSize:"9px",fontWeight:"700",letterSpacing:"2px",marginBottom:"3px"}},cat.name));
   const h2=document.createElement("h2");
-  h2.style.cssText="color:#fff;font-size:20px;font-weight:900;margin:0;line-height:1.2;";
+  h2.style.cssText="color:#fff;font-size:20px;font-weight:900;margin:0;line-height:1.2;font-family:'Oswald',sans-serif;";
   h2.textContent=sub.name;
   hc.appendChild(h2);
   hero.appendChild(hc);
   frag.appendChild(hero);
-
   const wrap=div({style:{padding:"14px"}});
   const dp=document.createElement("p");
   dp.style.cssText="color:#888;font-size:12px;line-height:1.75;margin-bottom:14px;";
   dp.textContent=sub.desc;
   wrap.appendChild(dp);
-
   if(sub.products.length>0){
     wrap.appendChild(secTitle("PRODUCTS IN THIS COLLECTION"));
     sub.products.forEach(pr=>{
@@ -554,7 +744,6 @@ function renderSubPage(sub,cat){
       if(pr.price) pl.appendChild(div({style:{background:OG,color:"#fff",fontSize:"10px",fontWeight:"800",borderRadius:"4px",padding:"3px 8px"}},pr.price));
       ph.appendChild(pov); ph.appendChild(pl);
       pc.appendChild(ph);
-
       const pb=div({style:{padding:"11px 12px"}});
       const chips=div({style:{display:"flex",gap:"6px",flexWrap:"wrap",marginBottom:"10px"}});
       Object.entries(pr.specs).slice(0,3).forEach(([k,v])=>{
@@ -565,16 +754,11 @@ function renderSubPage(sub,cat){
       });
       pb.appendChild(chips);
       const brow=div({style:{display:"flex",gap:"8px"}});
-      const smpb=el("button",{
-        style:{background:inB?"transparent":OG,border:inB?`1.5px solid ${OG}`:"none",color:inB?OG:"#fff",borderRadius:"6px",padding:"8px 13px",fontSize:"9px",fontWeight:"800",cursor:"pointer",whiteSpace:"nowrap",fontFamily:"Montserrat,sans-serif"},
-        onClick:()=>{
-          if(!state.basket.find(b=>b.name===pr.name)){
-            setState({basket:[...state.basket,{...pr,cat:cat.name,col:sub.name}]});
-          }
-        }
-      },inB?"✓ ADDED":"＋ SAMPLE");
-      const specb=el("button",{style:{background:"#1A1A1A",border:"1px solid #282828",color:"#aaa",borderRadius:"6px",padding:"8px 13px",fontSize:"9px",fontWeight:"700",cursor:"pointer",flex:"1",fontFamily:"Montserrat,sans-serif"},onClick:()=>setState({prod:pr})},"FULL SPECS ›");
-      brow.appendChild(smpb); brow.appendChild(specb);
+      brow.appendChild(el("button",{
+        style:{background:inB?"transparent":OG,border:inB?`1.5px solid ${OG}`:"none",color:inB?OG:"#fff",borderRadius:"6px",padding:"8px 13px",fontSize:"9px",fontWeight:"800",cursor:"pointer",whiteSpace:"nowrap"},
+        onClick:()=>{if(!state.basket.find(b=>b.name===pr.name)) setState({basket:[...state.basket,{...pr,cat:cat.name,col:sub.name}]});}
+      },inB?"✓ ADDED":"＋ SAMPLE"));
+      brow.appendChild(el("button",{style:{background:"#1A1A1A",border:"1px solid #282828",color:"#aaa",borderRadius:"6px",padding:"8px 13px",fontSize:"9px",fontWeight:"700",cursor:"pointer",flex:"1"},onClick:()=>setState({prod:pr})},"FULL SPECS ›"));
       pb.appendChild(brow);
       pc.appendChild(pb);
       wrap.appendChild(pc);
@@ -582,7 +766,6 @@ function renderSubPage(sub,cat){
   } else {
     wrap.appendChild(div({style:{background:"#101010",borderRadius:"8px",padding:"16px",border:"1px solid #1C1C1C",textAlign:"center",marginBottom:"14px",color:"#555",fontSize:"12px",lineHeight:"1.6"}},"Contact us for full product listings and availability."));
   }
-
   wrap.appendChild(btnPrimary("📝 REQUEST QUOTE FOR THIS COLLECTION",()=>setState({tab:"contact"})));
   wrap.appendChild(btnOutline("📞 CALL: 800 FLOOR (35667)","tel:80035667"));
   frag.appendChild(wrap);
@@ -598,7 +781,7 @@ function renderProdPage(prod,cat,sub){
   const hc=div({style:{position:"absolute",bottom:"16px",left:"16px",right:"16px"}});
   hc.appendChild(div({style:{color:GD,fontSize:"9px",fontWeight:"700",letterSpacing:"2px",marginBottom:"4px"}},cat.name+" · "+sub.name));
   const h2=document.createElement("h2");
-  h2.style.cssText="color:#fff;font-size:22px;font-weight:900;margin:0;";
+  h2.style.cssText="color:#fff;font-size:22px;font-weight:900;margin:0;font-family:'Oswald',sans-serif;";
   h2.textContent=prod.name;
   hc.appendChild(h2);
   const meta=div({style:{display:"flex",alignItems:"center",gap:"10px",marginTop:"5px"}});
@@ -607,18 +790,11 @@ function renderProdPage(prod,cat,sub){
   hc.appendChild(meta);
   hero.appendChild(hc);
   frag.appendChild(hero);
-
   const wrap=div({style:{padding:"14px"}});
-  const smpb=el("button",{
-    style:{width:"100%",background:inB?"transparent":"#C9A84C",border:inB?`2px solid #C9A84C`:"none",color:inB?"#C9A84C":"#111",borderRadius:"8px",padding:"12px",fontSize:"12px",fontWeight:"900",cursor:"pointer",marginBottom:"14px",fontFamily:"Montserrat,sans-serif"},
-    onClick:()=>{
-      if(!state.basket.find(b=>b.name===prod.name)){
-        setState({basket:[...state.basket,{...prod,cat:cat.name,col:sub.name}]});
-      }
-    }
-  },inB?"✓ IN YOUR SAMPLE BASKET":"＋ ADD TO SAMPLE BASKET");
-  wrap.appendChild(smpb);
-
+  wrap.appendChild(el("button",{
+    style:{width:"100%",background:inB?"transparent":"#C9A84C",border:inB?`2px solid #C9A84C`:"none",color:inB?"#C9A84C":"#111",borderRadius:"8px",padding:"12px",fontSize:"12px",fontWeight:"900",cursor:"pointer",marginBottom:"14px"},
+    onClick:()=>{if(!state.basket.find(b=>b.name===prod.name)) setState({basket:[...state.basket,{...prod,cat:cat.name,col:sub.name}]});}
+  },inB?"✓ IN YOUR SAMPLE BASKET":"＋ ADD TO SAMPLE BASKET"));
   const sc=div({style:{background:"#101010",borderRadius:"8px",padding:"14px",border:"1px solid #1A1A1A",marginBottom:"14px"}});
   sc.appendChild(secTitle("TECHNICAL SPECIFICATIONS"));
   const entries=Object.entries(prod.specs);
@@ -629,7 +805,6 @@ function renderProdPage(prod,cat,sub){
     sc.appendChild(row);
   });
   wrap.appendChild(sc);
-
   const ic=div({style:{background:"#101010",borderRadius:"8px",padding:"14px",border:"1px solid #1A1A1A",marginBottom:"14px"}});
   ic.appendChild(secTitle("INCLUDED WITH EVERY ORDER"));
   ["Free samples on request","Expert installation by 70+ professionals","1-year installation warranty","Free measuring & estimation","Free UAE delivery on eligible orders","After-sales support & care guidance"].forEach(f=>{
@@ -639,7 +814,6 @@ function renderProdPage(prod,cat,sub){
     ic.appendChild(row);
   });
   wrap.appendChild(ic);
-
   wrap.appendChild(btnPrimary("📝 REQUEST QUOTE FOR THIS PRODUCT",()=>setState({tab:"contact"})));
   wrap.appendChild(btnOutline("📞 CALL: 800 FLOOR (35667)","tel:80035667"));
   frag.appendChild(wrap);
@@ -649,28 +823,23 @@ function renderProdPage(prod,cat,sub){
 function renderServices(){
   const frag=document.createDocumentFragment();
   const hero=div({style:{position:"relative",height:"145px",overflow:"hidden"}});
-  hero.appendChild(img2(I.hero,"tex-dark","100%","145px"));
+  hero.appendChild(img2(IW.boaSteel,"tex-dark","100%","145px"));
   hero.appendChild(div({style:{position:"absolute",inset:"0",background:"rgba(0,0,0,.78)"}}));
   const hc=div({style:{position:"absolute",inset:"0",display:"flex",flexDirection:"column",justifyContent:"center",padding:"0 18px"}});
   hc.appendChild(div({style:{color:GD,fontSize:"9px",fontWeight:"700",letterSpacing:"2px",marginBottom:"7px"}},"COMPLETE FLOORING SOLUTIONS"));
-  hc.appendChild(div({style:{color:"#fff",fontSize:"19px",fontWeight:"900",lineHeight:"1.25"}},"From Free Estimation to Final Installation"));
+  hc.appendChild(div({style:{color:"#fff",fontSize:"19px",fontWeight:"900",lineHeight:"1.25",fontFamily:"'Oswald',sans-serif"}},"From Free Estimation to Final Installation"));
   hero.appendChild(hc);
   frag.appendChild(hero);
-
   const wrap=div({style:{padding:"14px"}});
-  const svcs=[
-    {icon:"📏",t:"Free Site Visit & Quote",d:"Professional visit within 24 hrs across UAE.",tag:"24hr"},
-    {icon:"🔨",t:"Installation Services",d:"70+ trained installers. 1-year installation warranty.",tag:"1yr Warranty"},
-    {icon:"📦",t:"Free Samples",d:"Take home free samples to compare colours and textures.",tag:"Free"},
-    {icon:"🚚",t:"Free Delivery UAE",d:"Free delivery on eligible orders across UAE.",tag:"Free"},
-    {icon:"🎨",t:"Room Visualizer Tool",d:"See your chosen floor in your own space before you buy.",tag:"Online"},
-    {icon:"💰",t:"Price Match Guarantee",d:"We match any like-for-like UAE competitor price.",tag:"Guaranteed"},
-    {icon:"📐",t:"Measuring & Estimation",d:"Free professional measuring — no hidden costs.",tag:"Free"},
-    {icon:"🌿",t:"Floor Care & Maintenance",d:"Expert guidance to keep your floors perfect for years.",tag:""},
-    {icon:"💬",t:"Customer Care Centre",d:"Dedicated support for all queries and after-sales.",tag:""},
-    {icon:"🏪",t:"Click & Collect",d:"Collect from any Floorworld showroom.",tag:""},
-  ];
-  svcs.forEach(s=>{
+  [{icon:"📏",t:"Free Site Visit & Quote",d:"Professional visit within 24 hrs across UAE.",tag:"24hr"},
+   {icon:"🔨",t:"Installation Services",d:"70+ trained installers. 1-year installation warranty.",tag:"1yr Warranty"},
+   {icon:"📦",t:"Free Samples",d:"Take home free samples to compare colours and textures.",tag:"Free"},
+   {icon:"🚚",t:"Free Delivery UAE",d:"Free delivery on eligible orders across UAE.",tag:"Free"},
+   {icon:"🎨",t:"Room Visualizer Tool",d:"See your chosen floor in your own space before you buy.",tag:"Online"},
+   {icon:"💰",t:"Price Match Guarantee",d:"We match any like-for-like UAE competitor price.",tag:"Guaranteed"},
+   {icon:"📐",t:"Measuring & Estimation",d:"Free professional measuring — no hidden costs.",tag:"Free"},
+   {icon:"🌿",t:"Floor Care & Maintenance",d:"Expert guidance to keep your floors perfect for years.",tag:""},
+  ].forEach(s=>{
     const sc=div({style:{background:"#101010",borderRadius:"8px",padding:"13px",marginBottom:"8px",border:"1px solid #1A1A1A",display:"flex",gap:"12px"}});
     sc.appendChild(div({style:{fontSize:"22px",flexShrink:"0"}},s.icon));
     const si=div({style:{flex:"1"}});
@@ -693,14 +862,9 @@ function renderAbout(){
   const tabs=div({style:{display:"flex",background:"#080808",borderBottom:"1px solid #1A1A1A"}});
   ["about","showrooms","brands","projects"].forEach(id=>{
     const lb={about:"ABOUT",showrooms:"SHOWROOMS",brands:"BRANDS",projects:"PROJECTS"}[id];
-    const tb=el("button",{
-      style:{flex:"1",padding:"11px 0",background:"none",border:"none",color:state.abt===id?OG:"#444",fontSize:"9px",fontWeight:state.abt===id?"900":"500",borderBottom:state.abt===id?`2px solid ${OG}`:"2px solid transparent",cursor:"pointer",letterSpacing:".5px",fontFamily:"Montserrat,sans-serif"},
-      onClick:()=>setState({abt:id})
-    },lb);
-    tabs.appendChild(tb);
+    tabs.appendChild(el("button",{style:{flex:"1",padding:"11px 0",background:"none",border:"none",color:state.abt===id?OG:"#444",fontSize:"9px",fontWeight:state.abt===id?"900":"500",borderBottom:state.abt===id?`2px solid ${OG}`:"2px solid transparent",cursor:"pointer",letterSpacing:".5px"},onClick:()=>setState({abt:id})},lb));
   });
   frag.appendChild(tabs);
-
   const wrap=div({style:{padding:"14px"}});
   const showrooms=[
     {city:"Dubai – Al Barsha 2",addr:"Umm Suqeim Street, Al Barsha 2",ph:"+971 4 889 5661",main:true},
@@ -711,16 +875,14 @@ function renderAbout(){
     {city:"Al Ain",addr:"Al Ain Showroom",ph:"800 Floor (35667)"},
     {city:"Oman",addr:"Muscat, Oman",ph:"800 Floor (35667)"},
   ];
-
   if(state.abt==="about"){
     const bh=div({style:{borderRadius:"8px",overflow:"hidden",marginBottom:"14px",position:"relative",height:"130px"}});
-    bh.appendChild(img2(I.hero,"tex-dark","100%","130px"));
+    bh.appendChild(img2(IW.gilded,"tex-dark","100%","130px"));
     bh.appendChild(div({style:{position:"absolute",inset:"0",background:"linear-gradient(to right,rgba(0,0,0,.92),rgba(0,0,0,.25)"}}));
     const bht=div({style:{position:"absolute",inset:"0",padding:"16px",display:"flex",flexDirection:"column",justifyContent:"center"}});
     bht.appendChild(div({style:{color:GD,fontSize:"9px",fontWeight:"700",letterSpacing:"2px",marginBottom:"4px"}},"OUR STORY · SINCE 2009"));
-    bht.appendChild(div({style:{color:"#fff",fontSize:"15px",fontWeight:"900",lineHeight:"1.3"}},"Crafting Exceptional Floors Across the GCC"));
-    bh.appendChild(bht);
-    wrap.appendChild(bh);
+    bht.appendChild(div({style:{color:"#fff",fontSize:"15px",fontWeight:"900",lineHeight:"1.3",fontFamily:"'Oswald',sans-serif"}},"Crafting Exceptional Floors Across the GCC"));
+    bh.appendChild(bht); wrap.appendChild(bh);
     const dp=document.createElement("p");
     dp.style.cssText="color:#777;font-size:12px;line-height:1.8;margin-bottom:16px;";
     dp.textContent="Founded in 2009, Floorworld has grown to become one of the leading flooring specialists in the UAE. With 7 showrooms spanning Dubai, Abu Dhabi, Sharjah, RAK, Al Ain and Oman.";
@@ -731,38 +893,31 @@ function renderAbout(){
       const ai=div({});
       ai.appendChild(div({style:{color:"#fff",fontSize:"12px",fontWeight:"800",marginBottom:"3px"}},t));
       ai.appendChild(div({style:{color:"#555",fontSize:"11px",lineHeight:"1.5"}},d));
-      ac.appendChild(ai);
-      wrap.appendChild(ac);
+      ac.appendChild(ai); wrap.appendChild(ac);
     });
   }
-
   if(state.abt==="showrooms"){
     const ph=div({style:{background:"#101010",borderRadius:"8px",padding:"12px",marginBottom:"14px",border:`1px solid ${OG}30`,display:"flex",gap:"10px",alignItems:"center"}});
     ph.appendChild(div({style:{fontSize:"22px"}},"📞"));
     const pt=div({});
     pt.appendChild(div({style:{color:"#fff",fontSize:"13px",fontWeight:"800"}},"Toll Free: 800 Floor (35667)"));
     pt.appendChild(div({style:{color:"#555",fontSize:"10px",marginTop:"2px"}},"All UAE showrooms"));
-    ph.appendChild(pt);
-    wrap.appendChild(ph);
+    ph.appendChild(pt); wrap.appendChild(ph);
     showrooms.forEach(s=>{
       const sc=div({style:{background:"#101010",borderRadius:"8px",padding:"13px",marginBottom:"8px",border:`1.5px solid ${s.main?OG:"#1A1A1A"}`}});
       const st=div({style:{color:"#fff",fontSize:"12px",fontWeight:"800"}});
       st.textContent="📍 "+s.city;
-      if(s.main){
-        const badge=span({style:{background:`${OG}22`,color:OG,fontSize:"8px",fontWeight:"800",borderRadius:"4px",padding:"2px 7px",marginLeft:"7px"}},"HEAD OFFICE");
-        st.appendChild(badge);
-      }
+      if(s.main) st.appendChild(span({style:{background:`${OG}22`,color:OG,fontSize:"8px",fontWeight:"800",borderRadius:"4px",padding:"2px 7px",marginLeft:"7px"}},"HEAD OFFICE"));
       sc.appendChild(st);
       sc.appendChild(div({style:{color:"#555",fontSize:"11px",marginTop:"4px"}},s.addr));
       sc.appendChild(div({style:{color:OG,fontSize:"10px",fontWeight:"700",marginTop:"5px"}},s.ph));
       wrap.appendChild(sc);
     });
   }
-
   if(state.abt==="brands"){
     wrap.appendChild(secTitle("EUROPEAN & GLOBAL PARTNER BRANDS"));
-    [{n:"Royal Parquet",c:"Engineered Wood · Parquet",src:I.oxford,tx:"tex-wood"},
-     {n:"SwissHardwood",c:"Engineered Wood",src:I.windsor,tx:"tex-wood"},
+    [{n:"Royal Parquet",c:"Engineered Wood · Parquet",src:IW.oxford,tx:"tex-wood"},
+     {n:"SwissHardwood",c:"Engineered Wood",src:IW.shChevron,tx:"tex-wood"},
      {n:"Gerbür",c:"Laminate · Vinyl · SPC",src:I.hydroBed,tx:"tex-lam"},
      {n:"Quick-Step",c:"Laminate · Vinyl",src:I.hydroW,tx:"tex-lam"},
      {n:"BerryAlloc",c:"Vinyl Flooring",src:I.vClick,tx:"tex-vinyl"},
@@ -773,31 +928,25 @@ function renderAbout(){
       const bi=div({style:{padding:"8px 13px"}});
       bi.appendChild(div({style:{color:"#fff",fontSize:"12px",fontWeight:"800"}},b.n));
       bi.appendChild(div({style:{color:OG,fontSize:"9px",fontWeight:"700",marginTop:"2px"}},b.c));
-      bc.appendChild(bi);
-      wrap.appendChild(bc);
+      bc.appendChild(bi); wrap.appendChild(bc);
     });
   }
-
   if(state.abt==="projects"){
     const pg=div({className:"grid-2"});
     projects.forEach(p=>{
       const pc=div({style:{borderRadius:"8px",overflow:"hidden",border:"1px solid #1C1C1C"}});
       pc.appendChild(img2(p.img,"tex-dark","100%","100px"));
-      const pl=div({style:{padding:"7px 9px",background:"#101010"}});
-      pl.appendChild(div({style:{color:"#bbb",fontSize:"10px",fontWeight:"600"}},p.label));
-      pc.appendChild(pl);
+      pc.appendChild(div({style:{padding:"7px 9px",background:"#101010"}},div({style:{color:"#bbb",fontSize:"10px",fontWeight:"600"}},p.label)));
       pg.appendChild(pc);
     });
     wrap.appendChild(pg);
   }
-
   frag.appendChild(wrap);
   return frag;
 }
 
 function renderContact(){
   const frag=document.createDocumentFragment();
-
   if(state.sent){
     const sw=div({style:{padding:"32px",textAlign:"center"}});
     sw.appendChild(div({style:{width:"64px",height:"64px",background:`${OG}20`,borderRadius:"99px",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"28px",margin:"0 auto 16px"}},"✅"));
@@ -810,22 +959,18 @@ function renderContact(){
     cc.appendChild(el("a",{href:"tel:80035667",style:{display:"block",color:OG,fontSize:"16px",fontWeight:"900",textDecoration:"none",marginBottom:"4px"}},"📞 800 Floor (35667)"));
     cc.appendChild(div({style:{color:"#444",fontSize:"10px"}},"info@floorworld.com"));
     sw.appendChild(cc);
-    const rb=el("button",{style:{background:"none",border:"1px solid #1E1E1E",color:"#555",padding:"9px 22px",borderRadius:"6px",marginTop:"14px",cursor:"pointer",fontSize:"11px",fontFamily:"Montserrat,sans-serif"},onClick:()=>setState({sent:false})},"Submit Another Request");
-    sw.appendChild(rb);
+    sw.appendChild(el("button",{style:{background:"none",border:"1px solid #1E1E1E",color:"#555",padding:"9px 22px",borderRadius:"6px",marginTop:"14px",cursor:"pointer",fontSize:"11px"},onClick:()=>setState({sent:false})},"Submit Another Request"));
     frag.appendChild(sw);
     return frag;
   }
-
-  const hero=div({style:{borderRadius:"8px",overflow:"hidden",marginBottom:"16px",position:"relative",height:"90px"}});
-  hero.appendChild(img2(I.hero,"tex-dark","100%","90px"));
-  hero.appendChild(div({style:{position:"absolute",inset:"0",background:"rgba(0,0,0,.78)",display:"flex",flexDirection:"column",justifyContent:"center",padding:"0 16px"}}));
-  const hov=hero.lastChild;
-  hov.appendChild(div({style:{color:GD,fontSize:"9px",fontWeight:"700",letterSpacing:"2px",marginBottom:"4px"}},"BOOK A FREE SITE VISIT"));
-  hov.appendChild(div({style:{color:"#fff",fontSize:"16px",fontWeight:"900"}},"Request a Quote"));
-
   const wrap=div({style:{padding:"14px"}});
+  const hero=div({style:{borderRadius:"8px",overflow:"hidden",marginBottom:"16px",position:"relative",height:"90px"}});
+  hero.appendChild(img2(IW.boaSteel,"tex-dark","100%","90px"));
+  const hov=div({style:{position:"absolute",inset:"0",background:"rgba(0,0,0,.78)",display:"flex",flexDirection:"column",justifyContent:"center",padding:"0 16px"}});
+  hov.appendChild(div({style:{color:GD,fontSize:"9px",fontWeight:"700",letterSpacing:"2px",marginBottom:"4px"}},"BOOK A FREE SITE VISIT"));
+  hov.appendChild(div({style:{color:"#fff",fontSize:"16px",fontWeight:"900",fontFamily:"'Oswald',sans-serif"}},"Request a Quote"));
+  hero.appendChild(hov);
   wrap.appendChild(hero);
-
   if(state.basket.length>0){
     const bk=div({style:{background:"#101010",borderRadius:"8px",padding:"12px",marginBottom:"14px",border:`1px solid ${OG}35`}});
     bk.appendChild(div({style:{color:OG,fontSize:"9px",fontWeight:"800",marginBottom:"9px",letterSpacing:"1.3px"}},`🧺 SAMPLE BASKET (${state.basket.length})`));
@@ -835,50 +980,39 @@ function renderContact(){
       bt.appendChild(div({style:{color:"#fff",fontSize:"11px",fontWeight:"700"}},b.name));
       bt.appendChild(div({style:{color:"#444",fontSize:"9px",marginTop:"1px"}},b.cat));
       br.appendChild(bt);
-      const rb=el("button",{style:{background:"none",border:"none",color:"#333",fontSize:"20px",cursor:"pointer",lineHeight:"1"},onClick:()=>setState({basket:state.basket.filter(x=>x.name!==b.name)})},"\u00d7");
-      br.appendChild(rb);
+      br.appendChild(el("button",{style:{background:"none",border:"none",color:"#333",fontSize:"20px",cursor:"pointer",lineHeight:"1"},onClick:()=>setState({basket:state.basket.filter(x=>x.name!==b.name)})},"×"));
       bk.appendChild(br);
     });
     wrap.appendChild(bk);
   }
-
   function fldLabel(t){const l=document.createElement("label");l.className="form-label";l.textContent=t;return l;}
   function fldInput(ph,key,type="text"){
     const i=el("input",{type,className:"form-input",placeholder:ph});
     i.value=state.form[key]||"";
-    i.addEventListener("input",e=>{ state.form[key]=e.target.value; });
+    i.addEventListener("input",e=>{state.form[key]=e.target.value;});
     return i;
   }
-
-  wrap.appendChild(fldLabel("FULL NAME *"));
-  wrap.appendChild(fldInput("Your full name","name"));
-  wrap.appendChild(fldLabel("PHONE NUMBER *"));
-  wrap.appendChild(fldInput("+971 50 000 0000","phone","tel"));
-  wrap.appendChild(fldLabel("EMAIL ADDRESS"));
-  wrap.appendChild(fldInput("your@email.com","email","email"));
+  wrap.appendChild(fldLabel("FULL NAME *")); wrap.appendChild(fldInput("Your full name","name"));
+  wrap.appendChild(fldLabel("PHONE NUMBER *")); wrap.appendChild(fldInput("+971 50 000 0000","phone","tel"));
+  wrap.appendChild(fldLabel("EMAIL ADDRESS")); wrap.appendChild(fldInput("your@email.com","email","email"));
   wrap.appendChild(fldLabel("TYPE OF SPACE"));
   const sel=el("select",{className:"form-input",style:{appearance:"none"}});
   ["","Apartment","Villa / House","Penthouse","Office","Retail / Shop","Hotel / Hospitality","Government Building","Commercial / Industrial","Outdoor Area","Other"].forEach((s,i)=>{
-    const o=document.createElement("option");
-    o.value=s; o.textContent=i===0?"Select space type…":s;
-    sel.appendChild(o);
+    const o=document.createElement("option"); o.value=s; o.textContent=i===0?"Select space type…":s; sel.appendChild(o);
   });
   sel.value=state.form.space||"";
   sel.addEventListener("change",e=>{state.form.space=e.target.value;});
   wrap.appendChild(sel);
-  wrap.appendChild(fldLabel("APPROXIMATE AREA (sqm)"));
-  wrap.appendChild(fldInput("e.g. 200 sqm","area"));
+  wrap.appendChild(fldLabel("APPROXIMATE AREA (sqm)")); wrap.appendChild(fldInput("e.g. 200 sqm","area"));
   wrap.appendChild(fldLabel("ADDITIONAL NOTES"));
   const ta=el("textarea",{className:"form-input",style:{height:"78px",resize:"none"},placeholder:"Preferred colours, finish, timeline…"});
   ta.value=state.form.notes||"";
   ta.addEventListener("input",e=>{state.form.notes=e.target.value;});
   wrap.appendChild(ta);
-
   wrap.appendChild(btnPrimary("SUBMIT REQUEST →",()=>{
     if(!state.form.name||!state.form.phone){alert("Please enter name & phone.");return;}
     setState({sent:true});
   }));
-
   const ct=div({style:{background:"#101010",borderRadius:"8px",padding:"13px",marginTop:"10px",border:"1px solid #1A1A1A",textAlign:"center"}});
   ct.appendChild(div({style:{color:"#444",fontSize:"9px",fontWeight:"800",letterSpacing:"1.5px",marginBottom:"6px"}},"PREFER TO CALL?"));
   ct.appendChild(el("a",{href:"tel:80035667",style:{color:OG,fontSize:"17px",fontWeight:"900",textDecoration:"none"}},"📞 800 Floor (35667)"));
@@ -888,34 +1022,28 @@ function renderContact(){
   return frag;
 }
 
-// RENDER
+// ── RENDER ──
 function render(){
   const app=document.getElementById("app");
   app.innerHTML="";
-
-  // Header
   const hdr=div({className:"header"});
   const hl=div({style:{display:"flex",alignItems:"center",gap:"7px"}});
   if(state.prod||state.sub||state.cat){
-    const bk=el("button",{style:{background:"none",border:"none",color:OG,fontSize:"26px",cursor:"pointer",lineHeight:"1",paddingRight:"3px"},onClick:()=>{
+    hl.appendChild(el("button",{style:{background:"none",border:"none",color:OG,fontSize:"26px",cursor:"pointer",lineHeight:"1",paddingRight:"3px"},onClick:()=>{
       if(state.prod) setState({prod:null});
       else if(state.sub) setState({sub:null});
       else setState({cat:null});
-    }},"‹");
-    hl.appendChild(bk);
+    }},"‹"));
   }
   hl.appendChild(logoCompact());
   hdr.appendChild(hl);
   const hr=div({style:{display:"flex",gap:"7px",alignItems:"center"}});
   if(state.basket.length>0){
-    const bb=el("button",{style:{background:"#101010",border:"1px solid #2A2A2A",color:OG,borderRadius:"20px",padding:"5px 11px",fontSize:"10px",fontWeight:"700",cursor:"pointer"},onClick:()=>setState({tab:"contact",cat:null,sub:null,prod:null})},`🧺 ${state.basket.length}`);
-    hr.appendChild(bb);
+    hr.appendChild(el("button",{style:{background:"#101010",border:"1px solid #2A2A2A",color:OG,borderRadius:"20px",padding:"5px 11px",fontSize:"10px",fontWeight:"700",cursor:"pointer"},onClick:()=>setState({tab:"contact",cat:null,sub:null,prod:null})},`🧺 ${state.basket.length}`));
   }
   hr.appendChild(el("a",{href:"tel:80035667",style:{background:OG,color:"#fff",padding:"6px 14px",borderRadius:"20px",fontSize:"10px",fontWeight:"800",textDecoration:"none"}},"📞 800 FLOOR"));
   hdr.appendChild(hr);
   app.appendChild(hdr);
-
-  // Content
   let content;
   if(state.tab==="home"&&!state.cat) content=renderHome();
   else if(state.tab==="catalog"&&!state.cat) content=renderCatalog();
@@ -926,13 +1054,9 @@ function render(){
   else if(state.tab==="about") content=renderAbout();
   else if(state.tab==="contact") content=renderContact();
   if(content) app.appendChild(content);
-
-  // Bottom Nav
   const nav=div({className:"bottom-nav"});
   [["home","🏠","HOME"],["catalog","📋","CATALOG"],["services","🔨","SERVICES"],["about","ℹ️","ABOUT"],["contact","📝","REQUEST"]].forEach(([id,ic,lb])=>{
-    const nb=el("button",{className:"nav-btn"+(state.tab===id?" active":""),onClick:()=>{
-      setState({tab:id,cat:null,sub:null,prod:null});
-    }});
+    const nb=el("button",{className:"nav-btn"+(state.tab===id?" active":""),onClick:()=>setState({tab:id,cat:null,sub:null,prod:null})});
     nb.appendChild(div({className:"nav-icon"},ic));
     nb.appendChild(document.createTextNode(lb));
     if(id==="contact"&&state.basket.length>0) nb.appendChild(div({className:"nav-dot"}));
